@@ -1,0 +1,139 @@
+INFO [07-24|21:08:34.332] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [07-24|21:08:34.334] Starting peer-to-peer node               instance=Geth/v1.8.12-stable-37685930/linux-amd64/go1.10
+INFO [07-24|21:08:34.334] Allocated cache and file handles         database=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/chaindata cache=768 handles=512
+INFO [07-24|21:08:34.347] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [07-24|21:08:34.347] Disk storage enabled for ethash caches   dir=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/ethash count=3
+INFO [07-24|21:08:34.347] Disk storage enabled for ethash DAGs     dir=/users/nperry/.ethash                                          count=2
+INFO [07-24|21:08:34.347] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [07-24|21:08:34.349] Loaded most recent local header          number=0 hash=a38003…8cebfa td=10000000
+INFO [07-24|21:08:34.349] Loaded most recent local full block      number=0 hash=a38003…8cebfa td=10000000
+INFO [07-24|21:08:34.349] Loaded most recent local fast block      number=0 hash=a38003…8cebfa td=10000000
+INFO [07-24|21:08:34.349] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [07-24|21:08:34.350] Starting P2P networking 
+INFO [07-24|21:08:36.458] UDP listener up                          self=enode://fa9f02335f07cb5f6d0b3aab6aed135b62f596bb73afd9752f9e083cd791dc187578217cc49f06da980522d62e8ef29ad9e0fa19411ade9e445d77cd9563418b@[::]:30303
+INFO [07-24|21:08:36.458] RLPx listener up                         self=enode://fa9f02335f07cb5f6d0b3aab6aed135b62f596bb73afd9752f9e083cd791dc187578217cc49f06da980522d62e8ef29ad9e0fa19411ade9e445d77cd9563418b@[::]:30303
+INFO [07-24|21:08:36.462] IPC endpoint opened                      url=/users/nperry/alice/example/my-eth-chain/myDataDir/geth.ipc
+INFO [07-24|21:09:17.305] Etherbase automatically configured       address=0xbD8Ff4023383F4Cb6a470AB0A19CA05ecAf8A4a8
+INFO [07-24|21:09:40.896] Updated mining threads                   threads=0
+INFO [07-24|21:09:40.896] Transaction pool price threshold updated price=18000000000
+INFO [07-24|21:09:40.896] Starting mining operation 
+INFO [07-24|21:09:40.897] Commit new mining work                   number=1 txs=0 uncles=0 elapsed=293.223µs
+INFO [07-24|21:09:56.557] Successfully sealed new block            number=1 hash=614a79…52c451
+INFO [07-24|21:09:56.558] 🔨 mined potential block                  number=1 hash=614a79…52c451
+INFO [07-24|21:09:56.558] Commit new mining work                   number=2 txs=0 uncles=0 elapsed=165.069µs
+INFO [07-24|21:10:13.160] Successfully sealed new block            number=2 hash=a0c29a…9744fd
+INFO [07-24|21:10:13.161] 🔨 mined potential block                  number=2 hash=a0c29a…9744fd
+INFO [07-24|21:10:13.161] Commit new mining work                   number=3 txs=0 uncles=0 elapsed=211.978µs
+INFO [07-24|21:10:29.872] Successfully sealed new block            number=3 hash=6362db…ddc370
+INFO [07-24|21:10:29.876] 🔨 mined potential block                  number=3 hash=6362db…ddc370
+INFO [07-24|21:10:29.877] Commit new mining work                   number=4 txs=0 uncles=0 elapsed=136.276µs
+INFO [07-24|21:10:30.793] Successfully sealed new block            number=4 hash=d545fd…d9dc29
+INFO [07-24|21:10:30.794] 🔨 mined potential block                  number=4 hash=d545fd…d9dc29
+INFO [07-24|21:10:30.794] Commit new mining work                   number=5 txs=0 uncles=0 elapsed=130.891µs
+INFO [07-24|21:11:22.081] Successfully sealed new block            number=5 hash=b19602…83412e
+INFO [07-24|21:11:22.081] 🔨 mined potential block                  number=5 hash=b19602…83412e
+INFO [07-24|21:11:22.082] Commit new mining work                   number=6 txs=0 uncles=0 elapsed=140.887µs
+INFO [07-24|21:11:40.301] Successfully sealed new block            number=6 hash=dc4722…c3460d
+INFO [07-24|21:11:40.301] 🔗 block reached canonical chain          number=1 hash=614a79…52c451
+INFO [07-24|21:11:40.301] 🔨 mined potential block                  number=6 hash=dc4722…c3460d
+INFO [07-24|21:11:40.301] Commit new mining work                   number=7 txs=0 uncles=0 elapsed=204.085µs
+INFO [07-24|21:11:43.344] Successfully sealed new block            number=7 hash=d8c658…8ddc53
+INFO [07-24|21:11:43.345] 🔗 block reached canonical chain          number=2 hash=a0c29a…9744fd
+INFO [07-24|21:11:43.345] 🔨 mined potential block                  number=7 hash=d8c658…8ddc53
+INFO [07-24|21:11:43.345] Commit new mining work                   number=8 txs=0 uncles=0 elapsed=127.005µs
+INFO [07-24|21:11:44.420] Successfully sealed new block            number=8 hash=bbaffd…4781ae
+INFO [07-24|21:11:44.421] 🔗 block reached canonical chain          number=3 hash=6362db…ddc370
+INFO [07-24|21:11:44.421] 🔨 mined potential block                  number=8 hash=bbaffd…4781ae
+INFO [07-24|21:11:44.421] Commit new mining work                   number=9 txs=0 uncles=0 elapsed=194.229µs
+INFO [07-24|21:11:45.195] Successfully sealed new block            number=9 hash=481624…8cb702
+INFO [07-24|21:11:45.195] 🔗 block reached canonical chain          number=4 hash=d545fd…d9dc29
+INFO [07-24|21:11:45.195] 🔨 mined potential block                  number=9 hash=481624…8cb702
+INFO [07-24|21:11:45.195] Commit new mining work                   number=10 txs=0 uncles=0 elapsed=199.666µs
+INFO [07-24|21:12:01.749] Successfully sealed new block            number=10 hash=c44238…eba716
+INFO [07-24|21:12:01.749] 🔗 block reached canonical chain          number=5  hash=b19602…83412e
+INFO [07-24|21:12:01.749] 🔨 mined potential block                  number=10 hash=c44238…eba716
+INFO [07-24|21:12:01.749] Commit new mining work                   number=11 txs=0 uncles=0 elapsed=264.027µs
+INFO [07-24|21:12:03.265] Successfully sealed new block            number=11 hash=5ff5ab…e52a72
+INFO [07-24|21:12:03.266] 🔗 block reached canonical chain          number=6  hash=dc4722…c3460d
+INFO [07-24|21:12:03.266] 🔨 mined potential block                  number=11 hash=5ff5ab…e52a72
+INFO [07-24|21:12:03.266] Commit new mining work                   number=12 txs=0 uncles=0 elapsed=189.652µs
+INFO [07-24|21:17:07.958] Maximum peer count                       ETH=25 LES=0 total=25
+Fatal: Error starting protocol stack: datadir already used by another process
+INFO [07-24|21:17:31.991] IPC endpoint closed                      endpoint=/users/nperry/alice/example/my-eth-chain/myDataDir/geth.ipc
+INFO [07-24|21:17:31.991] Writing cached state to disk             block=11 hash=5ff5ab…e52a72 root=5d2eb2…1b909d
+INFO [07-24|21:17:31.991] Persisted trie from memory database      nodes=2 size=295.00B time=151.907µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=21 livesize=2.94kB
+INFO [07-24|21:17:31.991] Writing cached state to disk             block=10 hash=c44238…eba716 root=4b0171…3096fa
+INFO [07-24|21:17:31.991] Persisted trie from memory database      nodes=2 size=295.00B time=89.807µs  gcnodes=0 gcsize=0.00B gctime=0s livenodes=19 livesize=2.65kB
+INFO [07-24|21:17:31.992] Blockchain manager stopped 
+INFO [07-24|21:17:31.992] Stopping Ethereum protocol 
+INFO [07-24|21:17:31.992] Ethereum protocol stopped 
+INFO [07-24|21:17:31.992] Transaction pool stopped 
+INFO [07-24|21:17:31.992] Database closed                          database=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/chaindata
+INFO [07-24|21:17:34.546] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [07-24|21:17:34.548] Starting peer-to-peer node               instance=Geth/v1.8.12-stable-37685930/linux-amd64/go1.10
+INFO [07-24|21:17:34.548] Allocated cache and file handles         database=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/chaindata cache=768 handles=512
+INFO [07-24|21:17:34.565] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [07-24|21:17:34.566] Disk storage enabled for ethash caches   dir=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/ethash count=3
+INFO [07-24|21:17:34.566] Disk storage enabled for ethash DAGs     dir=/users/nperry/.ethash                                          count=2
+INFO [07-24|21:17:34.566] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [07-24|21:17:34.569] Loaded most recent local header          number=11 hash=5ff5ab…e52a72 td=114623000
+INFO [07-24|21:17:34.569] Loaded most recent local full block      number=11 hash=5ff5ab…e52a72 td=114623000
+INFO [07-24|21:17:34.569] Loaded most recent local fast block      number=11 hash=5ff5ab…e52a72 td=114623000
+INFO [07-24|21:17:34.569] Loaded local transaction journal         transactions=0 dropped=0
+INFO [07-24|21:17:34.569] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [07-24|21:17:34.569] Blockchain not empty, fast sync disabled 
+INFO [07-24|21:17:34.571] Starting P2P networking 
+INFO [07-24|21:17:36.696] UDP listener up                          self=enode://fa9f02335f07cb5f6d0b3aab6aed135b62f596bb73afd9752f9e083cd791dc187578217cc49f06da980522d62e8ef29ad9e0fa19411ade9e445d77cd9563418b@[::]:30303
+INFO [07-24|21:17:36.697] RLPx listener up                         self=enode://fa9f02335f07cb5f6d0b3aab6aed135b62f596bb73afd9752f9e083cd791dc187578217cc49f06da980522d62e8ef29ad9e0fa19411ade9e445d77cd9563418b@[::]:30303
+INFO [07-24|21:17:36.701] IPC endpoint opened                      url=/users/nperry/alice/example/my-eth-chain/myDataDir/geth.ipc
+INFO [07-24|21:17:36.788] Etherbase automatically configured       address=0xbD8Ff4023383F4Cb6a470AB0A19CA05ecAf8A4a8
+INFO [07-24|21:17:43.609] Updated mining threads                   threads=0
+INFO [07-24|21:17:43.609] Transaction pool price threshold updated price=18000000000
+INFO [07-24|21:17:43.609] Starting mining operation 
+INFO [07-24|21:17:43.609] Commit new mining work                   number=12 txs=0 uncles=0 elapsed=377.49µs
+INFO [07-24|21:17:46.179] Successfully sealed new block            number=12 hash=9b8866…b9e119
+INFO [07-24|21:17:46.179] 🔨 mined potential block                  number=12 hash=9b8866…b9e119
+INFO [07-24|21:17:46.180] Commit new mining work                   number=13 txs=0 uncles=0 elapsed=216.289µs
+INFO [07-24|21:17:46.801] Successfully sealed new block            number=13 hash=229cf5…cf88f8
+INFO [07-24|21:17:46.801] 🔨 mined potential block                  number=13 hash=229cf5…cf88f8
+INFO [07-24|21:17:46.801] Commit new mining work                   number=14 txs=0 uncles=0 elapsed=203.416µs
+INFO [07-24|21:18:18.098] Updated mining threads                   threads=0
+INFO [07-24|21:18:18.098] Transaction pool price threshold updated price=18000000000
+INFO [07-24|21:18:18.098] Starting mining operation 
+INFO [07-24|21:18:18.098] Commit new mining work                   number=14 txs=0 uncles=0 elapsed=289.065µs
+INFO [07-24|21:18:51.269] Successfully sealed new block            number=14 hash=06dc65…190b2f
+INFO [07-24|21:18:51.270] 🔨 mined potential block                  number=14 hash=06dc65…190b2f
+INFO [07-24|21:18:51.270] Commit new mining work                   number=15 txs=0 uncles=0 elapsed=408.219µs
+INFO [07-24|21:18:52.060] Successfully sealed new block            number=15 hash=ffb293…5067a4
+INFO [07-24|21:18:52.061] 🔨 mined potential block                  number=15 hash=ffb293…5067a4
+INFO [07-24|21:18:52.061] Commit new mining work                   number=16 txs=0 uncles=0 elapsed=181.714µs
+INFO [07-24|21:18:54.147] Successfully sealed new block            number=16 hash=dcecb9…6e8bfb
+INFO [07-24|21:18:54.148] 🔨 mined potential block                  number=16 hash=dcecb9…6e8bfb
+INFO [07-24|21:18:54.148] Commit new mining work                   number=17 txs=0 uncles=0 elapsed=120.188µs
+INFO [07-24|21:18:54.300] Successfully sealed new block            number=17 hash=61d1cd…fd273d
+INFO [07-24|21:18:54.300] 🔗 block reached canonical chain          number=12 hash=9b8866…b9e119
+INFO [07-24|21:18:54.300] 🔨 mined potential block                  number=17 hash=61d1cd…fd273d
+INFO [07-24|21:18:54.300] Commit new mining work                   number=18 txs=0 uncles=0 elapsed=231.991µs
+INFO [07-24|21:18:55.001] Successfully sealed new block            number=18 hash=e21106…0f97d8
+INFO [07-24|21:18:55.002] 🔗 block reached canonical chain          number=13 hash=229cf5…cf88f8
+INFO [07-24|21:18:55.002] 🔨 mined potential block                  number=18 hash=e21106…0f97d8
+INFO [07-24|21:18:55.002] Commit new mining work                   number=19 txs=0 uncles=0 elapsed=169.698µs
+INFO [07-24|21:18:57.214] Successfully sealed new block            number=19 hash=8933f1…f1bc5a
+INFO [07-24|21:18:57.215] 🔗 block reached canonical chain          number=14 hash=06dc65…190b2f
+INFO [07-24|21:18:57.215] 🔨 mined potential block                  number=19 hash=8933f1…f1bc5a
+INFO [07-24|21:18:57.215] Commit new mining work                   number=20 txs=0 uncles=0 elapsed=160.727µs
+INFO [07-24|21:18:58.560] Successfully sealed new block            number=20 hash=4f88c8…c1630f
+INFO [07-24|21:18:58.560] 🔗 block reached canonical chain          number=15 hash=ffb293…5067a4
+INFO [07-24|21:18:58.560] 🔨 mined potential block                  number=20 hash=4f88c8…c1630f
+INFO [07-24|21:18:58.561] Commit new mining work                   number=21 txs=0 uncles=0 elapsed=131.942µs
+INFO [07-24|21:19:31.652] IPC endpoint closed                      endpoint=/users/nperry/alice/example/my-eth-chain/myDataDir/geth.ipc
+INFO [07-24|21:19:31.652] Writing cached state to disk             block=20 hash=4f88c8…c1630f root=da6763…b195b3
+INFO [07-24|21:19:31.652] Persisted trie from memory database      nodes=2 size=295.00B time=52.258µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=17 livesize=2.36kB
+INFO [07-24|21:19:31.652] Writing cached state to disk             block=19 hash=8933f1…f1bc5a root=822efa…d53c13
+INFO [07-24|21:19:31.652] Persisted trie from memory database      nodes=2 size=295.00B time=17.396µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=15 livesize=2.06kB
+INFO [07-24|21:19:31.652] Blockchain manager stopped 
+INFO [07-24|21:19:31.652] Stopping Ethereum protocol 
+INFO [07-24|21:19:31.652] Ethereum protocol stopped 
+INFO [07-24|21:19:31.652] Transaction pool stopped 
+INFO [07-24|21:19:31.652] Database closed                          database=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/chaindata
+alice-record: command not found

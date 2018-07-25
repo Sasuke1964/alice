@@ -1,0 +1,30 @@
+=============== Jul 24, 2018 (CDT) ===============
+21:08:26.437840 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:08:26.438891 db@open opening
+21:08:26.440504 version@stat F·[] S·0B[] Sc·[]
+21:08:26.441787 db@janitor F·2 G·0
+21:08:26.441851 db@open done T·2.938778ms
+=============== Jul 24, 2018 (CDT) ===============
+21:08:34.334460 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:08:34.334580 version@stat F·[] S·0B[] Sc·[]
+21:08:34.334589 db@open opening
+21:08:34.334633 journal@recovery F·1
+21:08:34.337611 journal@recovery recovering @1
+21:08:34.339742 memdb@flush created L0@2 N·14 S·929B "\x1a:\xb1..\x8a\xe2\xb4,v3":"\x9b\xfc\x19..\x9f\x92\xfd,v5"
+21:08:34.345530 version@stat F·[1] S·929B[929B] Sc·[0.25]
+21:08:34.347075 db@janitor F·3 G·0
+21:08:34.347116 db@open done T·12.514002ms
+21:17:31.992222 db@close closing
+21:17:31.992338 db@close done T·114.498µs
+=============== Jul 24, 2018 (CDT) ===============
+21:17:34.548839 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:17:34.549165 version@stat F·[1] S·929B[929B] Sc·[0.25]
+21:17:34.549189 db@open opening
+21:17:34.549301 journal@recovery F·1
+21:17:34.554350 journal@recovery recovering @3
+21:17:34.558102 memdb@flush created L0@5 N·106 S·4KiB "Dat..ion,v16":"\xc1\xe2\xe7..\x03\xe0\x97,v120"
+21:17:34.563595 version@stat F·[2] S·5KiB[5KiB] Sc·[0.50]
+21:17:34.565280 db@janitor F·4 G·0
+21:17:34.565327 db@open done T·16.118632ms
+21:19:31.652688 db@close closing
+21:19:31.652816 db@close done T·113.074µs

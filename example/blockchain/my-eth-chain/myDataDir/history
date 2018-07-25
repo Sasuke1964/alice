@@ -1,0 +1,9 @@
+eth.coinbase
+miner.setEtherbase(web3.eth.accounts[0])
+miner.start()
+eth.getBalance(eth.coinbase)
+miner.stop()
+miner.start()
+miner.stop()
+miner.start()
+miner.stop()

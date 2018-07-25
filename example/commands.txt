@@ -1,0 +1,4 @@
+geth --datadir ./myDataDir --networkid 1114 console 2>> myEth.log
+miner.start()
+miner.stop()
+exit

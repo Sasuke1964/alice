@@ -1,0 +1,1615 @@
+INFO [07-24|21:08:34.332] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [07-24|21:08:34.334] Starting peer-to-peer node               instance=Geth/v1.8.12-stable-37685930/linux-amd64/go1.10
+INFO [07-24|21:08:34.334] Allocated cache and file handles         database=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/chaindata cache=768 handles=512
+INFO [07-24|21:08:34.347] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [07-24|21:08:34.347] Disk storage enabled for ethash caches   dir=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/ethash count=3
+INFO [07-24|21:08:34.347] Disk storage enabled for ethash DAGs     dir=/users/nperry/.ethash                                          count=2
+INFO [07-24|21:08:34.347] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [07-24|21:08:34.349] Loaded most recent local header          number=0 hash=a38003…8cebfa td=10000000
+INFO [07-24|21:08:34.349] Loaded most recent local full block      number=0 hash=a38003…8cebfa td=10000000
+INFO [07-24|21:08:34.349] Loaded most recent local fast block      number=0 hash=a38003…8cebfa td=10000000
+INFO [07-24|21:08:34.349] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [07-24|21:08:34.350] Starting P2P networking 
+INFO [07-24|21:08:36.458] UDP listener up                          self=enode://fa9f02335f07cb5f6d0b3aab6aed135b62f596bb73afd9752f9e083cd791dc187578217cc49f06da980522d62e8ef29ad9e0fa19411ade9e445d77cd9563418b@[::]:30303
+INFO [07-24|21:08:36.458] RLPx listener up                         self=enode://fa9f02335f07cb5f6d0b3aab6aed135b62f596bb73afd9752f9e083cd791dc187578217cc49f06da980522d62e8ef29ad9e0fa19411ade9e445d77cd9563418b@[::]:30303
+INFO [07-24|21:08:36.462] IPC endpoint opened                      url=/users/nperry/alice/example/my-eth-chain/myDataDir/geth.ipc
+INFO [07-24|21:09:17.305] Etherbase automatically configured       address=0xbD8Ff4023383F4Cb6a470AB0A19CA05ecAf8A4a8
+INFO [07-24|21:09:40.896] Updated mining threads                   threads=0
+INFO [07-24|21:09:40.896] Transaction pool price threshold updated price=18000000000
+INFO [07-24|21:09:40.896] Starting mining operation 
+INFO [07-24|21:09:40.897] Commit new mining work                   number=1 txs=0 uncles=0 elapsed=293.223µs
+INFO [07-24|21:09:56.557] Successfully sealed new block            number=1 hash=614a79…52c451
+INFO [07-24|21:09:56.558] 🔨 mined potential block                  number=1 hash=614a79…52c451
+INFO [07-24|21:09:56.558] Commit new mining work                   number=2 txs=0 uncles=0 elapsed=165.069µs
+INFO [07-24|21:10:13.160] Successfully sealed new block            number=2 hash=a0c29a…9744fd
+INFO [07-24|21:10:13.161] 🔨 mined potential block                  number=2 hash=a0c29a…9744fd
+INFO [07-24|21:10:13.161] Commit new mining work                   number=3 txs=0 uncles=0 elapsed=211.978µs
+INFO [07-24|21:10:29.872] Successfully sealed new block            number=3 hash=6362db…ddc370
+INFO [07-24|21:10:29.876] 🔨 mined potential block                  number=3 hash=6362db…ddc370
+INFO [07-24|21:10:29.877] Commit new mining work                   number=4 txs=0 uncles=0 elapsed=136.276µs
+INFO [07-24|21:10:30.793] Successfully sealed new block            number=4 hash=d545fd…d9dc29
+INFO [07-24|21:10:30.794] 🔨 mined potential block                  number=4 hash=d545fd…d9dc29
+INFO [07-24|21:10:30.794] Commit new mining work                   number=5 txs=0 uncles=0 elapsed=130.891µs
+INFO [07-24|21:11:22.081] Successfully sealed new block            number=5 hash=b19602…83412e
+INFO [07-24|21:11:22.081] 🔨 mined potential block                  number=5 hash=b19602…83412e
+INFO [07-24|21:11:22.082] Commit new mining work                   number=6 txs=0 uncles=0 elapsed=140.887µs
+INFO [07-24|21:11:40.301] Successfully sealed new block            number=6 hash=dc4722…c3460d
+INFO [07-24|21:11:40.301] 🔗 block reached canonical chain          number=1 hash=614a79…52c451
+INFO [07-24|21:11:40.301] 🔨 mined potential block                  number=6 hash=dc4722…c3460d
+INFO [07-24|21:11:40.301] Commit new mining work                   number=7 txs=0 uncles=0 elapsed=204.085µs
+INFO [07-24|21:11:43.344] Successfully sealed new block            number=7 hash=d8c658…8ddc53
+INFO [07-24|21:11:43.345] 🔗 block reached canonical chain          number=2 hash=a0c29a…9744fd
+INFO [07-24|21:11:43.345] 🔨 mined potential block                  number=7 hash=d8c658…8ddc53
+INFO [07-24|21:11:43.345] Commit new mining work                   number=8 txs=0 uncles=0 elapsed=127.005µs
+INFO [07-24|21:11:44.420] Successfully sealed new block            number=8 hash=bbaffd…4781ae
+INFO [07-24|21:11:44.421] 🔗 block reached canonical chain          number=3 hash=6362db…ddc370
+INFO [07-24|21:11:44.421] 🔨 mined potential block                  number=8 hash=bbaffd…4781ae
+INFO [07-24|21:11:44.421] Commit new mining work                   number=9 txs=0 uncles=0 elapsed=194.229µs
+INFO [07-24|21:11:45.195] Successfully sealed new block            number=9 hash=481624…8cb702
+INFO [07-24|21:11:45.195] 🔗 block reached canonical chain          number=4 hash=d545fd…d9dc29
+INFO [07-24|21:11:45.195] 🔨 mined potential block                  number=9 hash=481624…8cb702
+INFO [07-24|21:11:45.195] Commit new mining work                   number=10 txs=0 uncles=0 elapsed=199.666µs
+INFO [07-24|21:12:01.749] Successfully sealed new block            number=10 hash=c44238…eba716
+INFO [07-24|21:12:01.749] 🔗 block reached canonical chain          number=5  hash=b19602…83412e
+INFO [07-24|21:12:01.749] 🔨 mined potential block                  number=10 hash=c44238…eba716
+INFO [07-24|21:12:01.749] Commit new mining work                   number=11 txs=0 uncles=0 elapsed=264.027µs
+INFO [07-24|21:12:03.265] Successfully sealed new block            number=11 hash=5ff5ab…e52a72
+INFO [07-24|21:12:03.266] 🔗 block reached canonical chain          number=6  hash=dc4722…c3460d
+INFO [07-24|21:12:03.266] 🔨 mined potential block                  number=11 hash=5ff5ab…e52a72
+INFO [07-24|21:12:03.266] Commit new mining work                   number=12 txs=0 uncles=0 elapsed=189.652µs
+INFO [07-24|21:17:07.958] Maximum peer count                       ETH=25 LES=0 total=25
+Fatal: Error starting protocol stack: datadir already used by another process
+INFO [07-24|21:17:31.991] IPC endpoint closed                      endpoint=/users/nperry/alice/example/my-eth-chain/myDataDir/geth.ipc
+INFO [07-24|21:17:31.991] Writing cached state to disk             block=11 hash=5ff5ab…e52a72 root=5d2eb2…1b909d
+INFO [07-24|21:17:31.991] Persisted trie from memory database      nodes=2 size=295.00B time=151.907µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=21 livesize=2.94kB
+INFO [07-24|21:17:31.991] Writing cached state to disk             block=10 hash=c44238…eba716 root=4b0171…3096fa
+INFO [07-24|21:17:31.991] Persisted trie from memory database      nodes=2 size=295.00B time=89.807µs  gcnodes=0 gcsize=0.00B gctime=0s livenodes=19 livesize=2.65kB
+INFO [07-24|21:17:31.992] Blockchain manager stopped 
+INFO [07-24|21:17:31.992] Stopping Ethereum protocol 
+INFO [07-24|21:17:31.992] Ethereum protocol stopped 
+INFO [07-24|21:17:31.992] Transaction pool stopped 
+INFO [07-24|21:17:31.992] Database closed                          database=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/chaindata
+INFO [07-24|21:17:34.546] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [07-24|21:17:34.548] Starting peer-to-peer node               instance=Geth/v1.8.12-stable-37685930/linux-amd64/go1.10
+INFO [07-24|21:17:34.548] Allocated cache and file handles         database=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/chaindata cache=768 handles=512
+INFO [07-24|21:17:34.565] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [07-24|21:17:34.566] Disk storage enabled for ethash caches   dir=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/ethash count=3
+INFO [07-24|21:17:34.566] Disk storage enabled for ethash DAGs     dir=/users/nperry/.ethash                                          count=2
+INFO [07-24|21:17:34.566] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [07-24|21:17:34.569] Loaded most recent local header          number=11 hash=5ff5ab…e52a72 td=114623000
+INFO [07-24|21:17:34.569] Loaded most recent local full block      number=11 hash=5ff5ab…e52a72 td=114623000
+INFO [07-24|21:17:34.569] Loaded most recent local fast block      number=11 hash=5ff5ab…e52a72 td=114623000
+INFO [07-24|21:17:34.569] Loaded local transaction journal         transactions=0 dropped=0
+INFO [07-24|21:17:34.569] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [07-24|21:17:34.569] Blockchain not empty, fast sync disabled 
+INFO [07-24|21:17:34.571] Starting P2P networking 
+INFO [07-24|21:17:36.696] UDP listener up                          self=enode://fa9f02335f07cb5f6d0b3aab6aed135b62f596bb73afd9752f9e083cd791dc187578217cc49f06da980522d62e8ef29ad9e0fa19411ade9e445d77cd9563418b@[::]:30303
+INFO [07-24|21:17:36.697] RLPx listener up                         self=enode://fa9f02335f07cb5f6d0b3aab6aed135b62f596bb73afd9752f9e083cd791dc187578217cc49f06da980522d62e8ef29ad9e0fa19411ade9e445d77cd9563418b@[::]:30303
+INFO [07-24|21:17:36.701] IPC endpoint opened                      url=/users/nperry/alice/example/my-eth-chain/myDataDir/geth.ipc
+INFO [07-24|21:17:36.788] Etherbase automatically configured       address=0xbD8Ff4023383F4Cb6a470AB0A19CA05ecAf8A4a8
+INFO [07-24|21:17:43.609] Updated mining threads                   threads=0
+INFO [07-24|21:17:43.609] Transaction pool price threshold updated price=18000000000
+INFO [07-24|21:17:43.609] Starting mining operation 
+INFO [07-24|21:17:43.609] Commit new mining work                   number=12 txs=0 uncles=0 elapsed=377.49µs
+INFO [07-24|21:17:46.179] Successfully sealed new block            number=12 hash=9b8866…b9e119
+INFO [07-24|21:17:46.179] 🔨 mined potential block                  number=12 hash=9b8866…b9e119
+INFO [07-24|21:17:46.180] Commit new mining work                   number=13 txs=0 uncles=0 elapsed=216.289µs
+INFO [07-24|21:17:46.801] Successfully sealed new block            number=13 hash=229cf5…cf88f8
+INFO [07-24|21:17:46.801] 🔨 mined potential block                  number=13 hash=229cf5…cf88f8
+INFO [07-24|21:17:46.801] Commit new mining work                   number=14 txs=0 uncles=0 elapsed=203.416µs
+INFO [07-24|21:18:18.098] Updated mining threads                   threads=0
+INFO [07-24|21:18:18.098] Transaction pool price threshold updated price=18000000000
+INFO [07-24|21:18:18.098] Starting mining operation 
+INFO [07-24|21:18:18.098] Commit new mining work                   number=14 txs=0 uncles=0 elapsed=289.065µs
+INFO [07-24|21:18:51.269] Successfully sealed new block            number=14 hash=06dc65…190b2f
+INFO [07-24|21:18:51.270] 🔨 mined potential block                  number=14 hash=06dc65…190b2f
+INFO [07-24|21:18:51.270] Commit new mining work                   number=15 txs=0 uncles=0 elapsed=408.219µs
+INFO [07-24|21:18:52.060] Successfully sealed new block            number=15 hash=ffb293…5067a4
+INFO [07-24|21:18:52.061] 🔨 mined potential block                  number=15 hash=ffb293…5067a4
+INFO [07-24|21:18:52.061] Commit new mining work                   number=16 txs=0 uncles=0 elapsed=181.714µs
+INFO [07-24|21:18:54.147] Successfully sealed new block            number=16 hash=dcecb9…6e8bfb
+INFO [07-24|21:18:54.148] 🔨 mined potential block                  number=16 hash=dcecb9…6e8bfb
+INFO [07-24|21:18:54.148] Commit new mining work                   number=17 txs=0 uncles=0 elapsed=120.188µs
+INFO [07-24|21:18:54.300] Successfully sealed new block            number=17 hash=61d1cd…fd273d
+INFO [07-24|21:18:54.300] 🔗 block reached canonical chain          number=12 hash=9b8866…b9e119
+INFO [07-24|21:18:54.300] 🔨 mined potential block                  number=17 hash=61d1cd…fd273d
+INFO [07-24|21:18:54.300] Commit new mining work                   number=18 txs=0 uncles=0 elapsed=231.991µs
+INFO [07-24|21:18:55.001] Successfully sealed new block            number=18 hash=e21106…0f97d8
+INFO [07-24|21:18:55.002] 🔗 block reached canonical chain          number=13 hash=229cf5…cf88f8
+INFO [07-24|21:18:55.002] 🔨 mined potential block                  number=18 hash=e21106…0f97d8
+INFO [07-24|21:18:55.002] Commit new mining work                   number=19 txs=0 uncles=0 elapsed=169.698µs
+INFO [07-24|21:18:57.214] Successfully sealed new block            number=19 hash=8933f1…f1bc5a
+INFO [07-24|21:18:57.215] 🔗 block reached canonical chain          number=14 hash=06dc65…190b2f
+INFO [07-24|21:18:57.215] 🔨 mined potential block                  number=19 hash=8933f1…f1bc5a
+INFO [07-24|21:18:57.215] Commit new mining work                   number=20 txs=0 uncles=0 elapsed=160.727µs
+INFO [07-24|21:18:58.560] Successfully sealed new block            number=20 hash=4f88c8…c1630f
+INFO [07-24|21:18:58.560] 🔗 block reached canonical chain          number=15 hash=ffb293…5067a4
+INFO [07-24|21:18:58.560] 🔨 mined potential block                  number=20 hash=4f88c8…c1630f
+INFO [07-24|21:18:58.561] Commit new mining work                   number=21 txs=0 uncles=0 elapsed=131.942µs
+INFO [07-24|21:19:31.652] IPC endpoint closed                      endpoint=/users/nperry/alice/example/my-eth-chain/myDataDir/geth.ipc
+INFO [07-24|21:19:31.652] Writing cached state to disk             block=20 hash=4f88c8…c1630f root=da6763…b195b3
+INFO [07-24|21:19:31.652] Persisted trie from memory database      nodes=2 size=295.00B time=52.258µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=17 livesize=2.36kB
+INFO [07-24|21:19:31.652] Writing cached state to disk             block=19 hash=8933f1…f1bc5a root=822efa…d53c13
+INFO [07-24|21:19:31.652] Persisted trie from memory database      nodes=2 size=295.00B time=17.396µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=15 livesize=2.06kB
+INFO [07-24|21:19:31.652] Blockchain manager stopped 
+INFO [07-24|21:19:31.652] Stopping Ethereum protocol 
+INFO [07-24|21:19:31.652] Ethereum protocol stopped 
+INFO [07-24|21:19:31.652] Transaction pool stopped 
+INFO [07-24|21:19:31.652] Database closed                          database=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/chaindata
+alice-record: command not found
+INFO [07-25|10:36:56.939] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [07-25|10:36:57.306] Starting peer-to-peer node               instance=Geth/v1.8.12-stable-37685930/linux-amd64/go1.10
+INFO [07-25|10:36:57.307] Allocated cache and file handles         database=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/chaindata cache=768 handles=512
+INFO [07-25|10:36:57.474] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [07-25|10:36:57.474] Disk storage enabled for ethash caches   dir=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/ethash count=3
+INFO [07-25|10:36:57.474] Disk storage enabled for ethash DAGs     dir=/users/nperry/.ethash                                          count=2
+INFO [07-25|10:36:57.474] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [07-25|10:36:57.476] Loaded most recent local header          number=20 hash=4f88c8…c1630f td=198670908
+INFO [07-25|10:36:57.476] Loaded most recent local full block      number=20 hash=4f88c8…c1630f td=198670908
+INFO [07-25|10:36:57.476] Loaded most recent local fast block      number=20 hash=4f88c8…c1630f td=198670908
+INFO [07-25|10:36:57.477] Loaded local transaction journal         transactions=0 dropped=0
+INFO [07-25|10:36:57.477] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [07-25|10:36:57.477] Blockchain not empty, fast sync disabled 
+INFO [07-25|10:36:57.479] Starting P2P networking 
+INFO [07-25|10:36:59.810] UDP listener up                          self=enode://fa9f02335f07cb5f6d0b3aab6aed135b62f596bb73afd9752f9e083cd791dc187578217cc49f06da980522d62e8ef29ad9e0fa19411ade9e445d77cd9563418b@[::]:30303
+INFO [07-25|10:36:59.821] RLPx listener up                         self=enode://fa9f02335f07cb5f6d0b3aab6aed135b62f596bb73afd9752f9e083cd791dc187578217cc49f06da980522d62e8ef29ad9e0fa19411ade9e445d77cd9563418b@[::]:30303
+INFO [07-25|10:36:59.943] IPC endpoint opened                      url=/users/nperry/alice/example/my-eth-chain/myDataDir/geth.ipc
+INFO [07-25|10:37:01.894] Etherbase automatically configured       address=0xbD8Ff4023383F4Cb6a470AB0A19CA05ecAf8A4a8
+SIGILL: illegal instruction
+PC=0x4959f4 m=28 sigcode=2
+
+goroutine 370 [syscall]:
+syscall.Syscall(0x1, 0x1f, 0xc42150c840, 0x10, 0xc420fb8180, 0xc4213f00c0, 0xc420f9f8e0)
+	/usr/lib/go-1.10/src/syscall/asm_linux_amd64.s:18 +0x5 fp=0xc420f9f880 sp=0xc420f9f878 pc=0x4959c5
+syscall.write(0x1f, 0xc42150c840, 0x10, 0x20, 0xc4213f0000, 0x0, 0x0)
+	/usr/lib/go-1.10/src/syscall/zsyscall_linux_amd64.go:1022 +0x5f fp=0xc420f9f8e0 sp=0xc420f9f880 pc=0x4934ff
+syscall.Write(0x1f, 0xc42150c840, 0x10, 0x20, 0x20, 0x1, 0xc42150c840)
+	/usr/lib/go-1.10/src/syscall/syscall_unix.go:181 +0x49 fp=0xc420f9f928 sp=0xc420f9f8e0 pc=0x491389
+internal/poll.(*FD).Write(0xc4223d5c00, 0xc42150c840, 0x10, 0x20, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/internal/poll/fd_unix.go:256 +0x142 fp=0xc420f9f990 sp=0xc420f9f928 pc=0x4ac382
+net.(*netFD).Write(0xc4223d5c00, 0xc42150c840, 0x10, 0x20, 0xc42150c840, 0x20, 0x20)
+	/usr/lib/go-1.10/src/net/fd_unix.go:220 +0x4f fp=0xc420f9f9f0 sp=0xc420f9f990 pc=0x5d331f
+net.(*conn).Write(0xc42104a4f0, 0xc42150c840, 0x10, 0x20, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/net/net.go:188 +0x6a fp=0xc420f9fa50 sp=0xc420f9f9f0 pc=0x5e4a8a
+github.com/ethereum/go-ethereum/p2p.(*rlpxFrameRW).WriteMsg(0xc4224b6070, 0x1, 0x4, 0x10bddc0, 0xc420f98600, 0x0, 0x0, 0x0, 0xdaa760, 0x1b2d420)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:649 +0x6c5 fp=0xc420f9fb90 sp=0xc420f9fa50 pc=0x9840b5
+github.com/ethereum/go-ethereum/p2p.Send(0x10be5a0, 0xc4224b6070, 0x1, 0xd8c340, 0xc4202f0360, 0x423f16, 0x10)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/message.go:97 +0x102 fp=0xc420f9fc28 sp=0xc420f9fb90 pc=0x97b212
+github.com/ethereum/go-ethereum/p2p.SendItems(0x10be5a0, 0xc4224b6070, 0x1, 0xc4214080a0, 0x1, 0x1, 0x1b2d420, 0x424325)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/message.go:110 +0x95 fp=0xc420f9fc88 sp=0xc420f9fc28 pc=0x97b2e5
+github.com/ethereum/go-ethereum/p2p.(*rlpx).close(0xc4223fe300, 0x10bfe20, 0xc42249e2a0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:117 +0x1b8 fp=0xc420f9fcf8 sp=0xc420f9fc88 pc=0x97f618
+github.com/ethereum/go-ethereum/p2p.(*Peer).run(0xc422177e00, 0xd6c4e0, 0xc42219e700, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:234 +0x399 fp=0xc420f9fed0 sp=0xc420f9fcf8 pc=0x97c689
+github.com/ethereum/go-ethereum/p2p.(*Server).runPeer(0xc420398000, 0xc422177e00)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:894 +0x12b fp=0xc420f9ffd0 sp=0xc420f9fed0 pc=0x98b04b
+runtime.goexit()
+	/usr/lib/go-1.10/src/runtime/asm_amd64.s:2361 +0x1 fp=0xc420f9ffd8 sp=0xc420f9ffd0 pc=0x470b11
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:646 +0x12bf
+
+goroutine 1 [select]:
+github.com/ethereum/go-ethereum/console.(*Console).Interactive(0xc420375110)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/console/console.go:344 +0x29d
+main.localConsole(0xc4201742c0, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/cmd/geth/consolecmd.go:109 +0x39a
+github.com/ethereum/go-ethereum/cmd/utils.MigrateFlags.func1(0xc4201742c0, 0x0, 0xc4201742c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/cmd/utils/flags.go:1356 +0x103
+github.com/ethereum/go-ethereum/vendor/gopkg.in/urfave/cli%2ev1.HandleAction(0xdb9e80, 0xc42010d6d0, 0xc4201742c0, 0xc4201be600, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/gopkg.in/urfave/cli.v1/app.go:490 +0xc8
+github.com/ethereum/go-ethereum/vendor/gopkg.in/urfave/cli%2ev1.Command.Run(0xf3d352, 0x7, 0x0, 0x0, 0x0, 0x0, 0x0, 0xf6331f, 0x2b, 0x0, ...)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/gopkg.in/urfave/cli.v1/command.go:210 +0xa36
+github.com/ethereum/go-ethereum/vendor/gopkg.in/urfave/cli%2ev1.(*App).Run(0xc4201364e0, 0xc420128000, 0x6, 0x6, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/gopkg.in/urfave/cli.v1/app.go:255 +0x6a0
+main.main()
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/cmd/geth/main.go:239 +0x55
+
+goroutine 36 [chan receive]:
+github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*nonrecursiveTree).dispatch(0xc4201281e0, 0xc420128120)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/tree_nonrecursive.go:36 +0xb6
+created by github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.newNonrecursiveTree
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/tree_nonrecursive.go:29 +0xf2
+
+goroutine 37 [chan receive]:
+github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*nonrecursiveTree).internal(0xc4201281e0, 0xc420128180)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/tree_nonrecursive.go:81 +0x7b
+created by github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.newNonrecursiveTree
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/tree_nonrecursive.go:30 +0x11e
+
+goroutine 38 [syscall]:
+os/signal.signal_recv(0x0)
+	/usr/lib/go-1.10/src/runtime/sigqueue.go:139 +0xa6
+os/signal.loop()
+	/usr/lib/go-1.10/src/os/signal/signal_unix.go:22 +0x22
+created by os/signal.init.0
+	/usr/lib/go-1.10/src/os/signal/signal_unix.go:28 +0x41
+
+goroutine 39 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 40 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 41 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 42 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 43 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 44 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 45 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 46 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 47 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 48 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 49 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 50 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 51 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 52 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 53 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 54 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 55 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 56 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 57 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 58 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 59 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 60 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 61 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 62 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 63 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 64 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 65 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 66 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 67 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 68 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 69 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 70 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 71 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 72 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 73 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 74 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 75 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 76 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 77 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 78 [chan receive]:
+github.com/ethereum/go-ethereum/core.(*txSenderCacher).cache(0xc42010d570)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:63 +0x97
+created by github.com/ethereum/go-ethereum/core.newTxSenderCacher
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_cacher.go:55 +0xa4
+
+goroutine 16 [select, locked to thread]:
+runtime.gopark(0xfcbe20, 0x0, 0xf3c699, 0x6, 0x18, 0x1)
+	/usr/lib/go-1.10/src/runtime/proc.go:291 +0x11a
+runtime.selectgo(0xc4204eff50, 0xc420102240)
+	/usr/lib/go-1.10/src/runtime/select.go:392 +0xe50
+runtime.ensureSigM.func1()
+	/usr/lib/go-1.10/src/runtime/signal_unix.go:549 +0x1f4
+runtime.goexit()
+	/usr/lib/go-1.10/src/runtime/asm_amd64.s:2361 +0x1
+
+goroutine 114 [runnable]:
+github.com/ethereum/go-ethereum/vendor/golang.org/x/sys/unix.EpollWait(0xc, 0xc4204fdf6c, 0x1, 0x1, 0xffffffffffffffff, 0xffffffffffffffff, 0x10c0820, 0xc4225d4000)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/golang.org/x/sys/unix/zsyscall_linux_amd64.go:1522 +0x141
+github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*inotify).loop(0xc420178000, 0xc420102300)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/watcher_inotify.go:194 +0x8b
+created by github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*inotify).lazyinit
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/watcher_inotify.go:134 +0x128
+
+goroutine 95 [select]:
+github.com/ethereum/go-ethereum/accounts/keystore.(*watcher).loop(0xc420434280)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/accounts/keystore/watch.go:94 +0x4a0
+created by github.com/ethereum/go-ethereum/accounts/keystore.(*watcher).start
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/accounts/keystore/watch.go:52 +0x5d
+
+goroutine 115 [chan receive]:
+github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*inotify).send(0xc420178000, 0xc420102300)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/watcher_inotify.go:254 +0xae
+created by github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*inotify).lazyinit
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/watcher_inotify.go:137 +0x17b
+
+goroutine 116 [chan receive]:
+github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*inotify).send(0xc420178000, 0xc420102300)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/watcher_inotify.go:254 +0xae
+created by github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*inotify).lazyinit
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/watcher_inotify.go:137 +0x17b
+
+goroutine 96 [select]:
+github.com/ethereum/go-ethereum/accounts/keystore.(*KeyStore).updater(0xc4203c6000)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/accounts/keystore/keystore.go:203 +0xf0
+created by github.com/ethereum/go-ethereum/accounts/keystore.(*KeyStore).Subscribe
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/accounts/keystore/keystore.go:190 +0x122
+
+goroutine 97 [runnable]:
+sync.runtime_SemacquireMutex(0x1b55864, 0xcac500)
+	/usr/lib/go-1.10/src/runtime/sema.go:71 +0x3d
+sync.(*Mutex).Lock(0x1b55860)
+	/usr/lib/go-1.10/src/sync/mutex.go:134 +0x108
+github.com/ethereum/go-ethereum/vendor/github.com/karalabe/hid.Enumerate(0xc400002c97, 0x0, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/karalabe/hid/hid_enabled.go:78 +0x56
+github.com/ethereum/go-ethereum/accounts/usbwallet.(*Hub).refreshWallets(0xc42042a3c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/accounts/usbwallet/hub.go:138 +0x100
+github.com/ethereum/go-ethereum/accounts/usbwallet.(*Hub).updater(0xc42042a3c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/accounts/usbwallet/hub.go:227 +0x4c
+created by github.com/ethereum/go-ethereum/accounts/usbwallet.(*Hub).Subscribe
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/accounts/usbwallet/hub.go:213 +0x122
+
+goroutine 130 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/lib/go-1.10/src/runtime/time.go:102 +0x166
+github.com/ethereum/go-ethereum/accounts/usbwallet.(*Hub).updater(0xc42042a640)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/accounts/usbwallet/hub.go:224 +0x3e
+created by github.com/ethereum/go-ethereum/accounts/usbwallet.(*Hub).Subscribe
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/accounts/usbwallet/hub.go:213 +0x122
+
+goroutine 131 [select]:
+github.com/ethereum/go-ethereum/accounts.(*Manager).update(0xc4202a7930)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/accounts/manager.go:95 +0x1c6
+created by github.com/ethereum/go-ethereum/accounts.NewManager
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/accounts/manager.go:68 +0x54c
+
+goroutine 132 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util.(*BufferPool).drain(0xc4203ca7e0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util/buffer_pool.go:206 +0x152
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util.NewBufferPool
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util/buffer_pool.go:237 +0x171
+
+goroutine 118 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).compactionError(0xc420136d00)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_compaction.go:90 +0xff
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:142 +0x49d
+
+goroutine 119 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).mpoolDrain(0xc420136d00)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_state.go:101 +0x127
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:143 +0x4bf
+
+goroutine 120 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).tCompaction(0xc420136d00)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_compaction.go:804 +0x277
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:149 +0x627
+
+goroutine 121 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).mCompaction(0xc420136d00)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_compaction.go:751 +0x15d
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:150 +0x649
+
+goroutine 122 [select]:
+github.com/ethereum/go-ethereum/ethdb.(*LDBDatabase).meter(0xc420162420, 0xb2d05e00)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/ethdb/database.go:361 +0x19b5
+created by github.com/ethereum/go-ethereum/ethdb.(*LDBDatabase).Meter
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/ethdb/database.go:177 +0x1b8
+
+goroutine 123 [select]:
+github.com/ethereum/go-ethereum/core.(*ChainIndexer).updateLoop(0xc42044c240)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/chain_indexer.go:272 +0x16c
+created by github.com/ethereum/go-ethereum/core.NewChainIndexer
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/chain_indexer.go:108 +0x23b
+
+goroutine 124 [select]:
+github.com/ethereum/go-ethereum/core.(*BlockChain).update(0xc4203a6000)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/blockchain.go:1389 +0x12d
+created by github.com/ethereum/go-ethereum/core.NewBlockChain
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/blockchain.go:194 +0x91a
+
+goroutine 125 [select]:
+github.com/ethereum/go-ethereum/core.(*ChainIndexer).eventLoop(0xc42044c240, 0xc4202ee480, 0xc4201be420, 0x10c1d80, 0xc42029e4e0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/chain_indexer.go:190 +0x266
+created by github.com/ethereum/go-ethereum/core.(*ChainIndexer).Start
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/chain_indexer.go:133 +0xcf
+
+goroutine 126 [select]:
+github.com/ethereum/go-ethereum/core.(*TxPool).loop(0xc4202f7dc0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_pool.go:281 +0x342
+created by github.com/ethereum/go-ethereum/core.NewTxPool
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/core/tx_pool.go:253 +0x4d1
+
+goroutine 127 [select]:
+github.com/ethereum/go-ethereum/eth/downloader.(*Downloader).qosTuner(0xc4201369c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/downloader/downloader.go:1584 +0x33e
+created by github.com/ethereum/go-ethereum/eth/downloader.New
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/downloader/downloader.go:231 +0x45c
+
+goroutine 128 [select]:
+github.com/ethereum/go-ethereum/eth/downloader.(*Downloader).stateFetcher(0xc4201369c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/downloader/statesync.go:76 +0x146
+created by github.com/ethereum/go-ethereum/eth/downloader.New
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/downloader/downloader.go:232 +0x47e
+
+goroutine 129 [select]:
+github.com/ethereum/go-ethereum/miner.(*worker).update(0xc420174c60)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/miner/worker.go:251 +0x2ec
+created by github.com/ethereum/go-ethereum/miner.newWorker
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/miner/worker.go:158 +0x4ae
+
+goroutine 178 [chan receive]:
+github.com/ethereum/go-ethereum/miner.(*worker).wait(0xc420174c60)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/miner/worker.go:300 +0x30b
+created by github.com/ethereum/go-ethereum/miner.newWorker
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/miner/worker.go:160 +0x4d0
+
+goroutine 179 [chan receive]:
+github.com/ethereum/go-ethereum/miner.(*Miner).update(0xc420294e10)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/miner/miner.go:81 +0x18e
+created by github.com/ethereum/go-ethereum/miner.New
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/miner/miner.go:69 +0x23b
+
+goroutine 180 [select]:
+github.com/ethereum/go-ethereum/p2p/nat.Map(0x10ca3c0, 0xc4200d9e80, 0xc420366000, 0xf397fa, 0x3, 0x765f, 0x765f, 0xf4850b, 0x12)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/nat/nat.go:114 +0x4b9
+created by github.com/ethereum/go-ethereum/p2p.(*Server).Start
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:435 +0xeda
+
+goroutine 133 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util.(*BufferPool).drain(0xc4204b4000)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util/buffer_pool.go:206 +0x152
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util.NewBufferPool
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util/buffer_pool.go:237 +0x171
+
+goroutine 183 [select]:
+github.com/ethereum/go-ethereum/eth/fetcher.(*Fetcher).loop(0xc4202a7860)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/fetcher/fetcher.go:316 +0x7d7
+created by github.com/ethereum/go-ethereum/eth/fetcher.(*Fetcher).Start
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/fetcher/fetcher.go:178 +0x3f
+
+goroutine 134 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).compactionError(0xc4202a9380)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_compaction.go:90 +0xff
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:142 +0x49d
+
+goroutine 135 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).mpoolDrain(0xc4202a9380)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_state.go:101 +0x127
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:143 +0x4bf
+
+goroutine 136 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).tCompaction(0xc4202a9380)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_compaction.go:804 +0x277
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:149 +0x627
+
+goroutine 137 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).mCompaction(0xc4202a9380)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_compaction.go:751 +0x15d
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:150 +0x649
+
+goroutine 138 [select]:
+github.com/ethereum/go-ethereum/p2p/discover.(*nodeDB).expirer(0xc4201299e0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/database.go:233 +0x114
+created by github.com/ethereum/go-ethereum/p2p/discover.(*nodeDB).ensureExpirer.func1
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/database.go:224 +0x3e
+
+goroutine 139 [select]:
+github.com/ethereum/go-ethereum/p2p/discover.(*Table).loop(0xc42042a8c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/table.go:370 +0x3d2
+created by github.com/ethereum/go-ethereum/p2p/discover.newTable
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/table.go:132 +0x450
+
+goroutine 140 [runnable]:
+github.com/ethereum/go-ethereum/p2p/discover.(*udp).loop(0xc4202fa150)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:401 +0x543
+created by github.com/ethereum/go-ethereum/p2p/discover.newUDP
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:260 +0x306
+
+goroutine 141 [runnable]:
+syscall.Syscall6(0x2c, 0x17, 0xc421104820, 0x95, 0x0, 0xc4225f601c, 0x1c, 0x95, 0x95, 0x0)
+	/usr/lib/go-1.10/src/syscall/asm_linux_amd64.s:44 +0x5
+syscall.sendto(0x17, 0xc421104820, 0x95, 0xc3, 0x0, 0xc4225f601c, 0xc40000001c, 0x0, 0x0)
+	/usr/lib/go-1.10/src/syscall/zsyscall_linux_amd64.go:1682 +0x95
+syscall.Sendto(0x17, 0xc421104820, 0x95, 0xc3, 0x0, 0x10bf8e0, 0xc4225f6000, 0xc4225f6000, 0xc4202c524c)
+	/usr/lib/go-1.10/src/syscall/syscall_unix.go:266 +0xac
+internal/poll.(*FD).WriteTo(0xc420171000, 0xc421104820, 0x95, 0xc3, 0x10bf8e0, 0xc4225f6000, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/internal/poll/fd_unix.go:318 +0x108
+net.(*netFD).writeTo(0xc420171000, 0xc421104820, 0x95, 0xc3, 0x10bf8e0, 0xc4225f6000, 0xc420ee5b38, 0xc4225f2000, 0xc420ee5ba8)
+	/usr/lib/go-1.10/src/net/fd_unix.go:226 +0x6f
+net.(*UDPConn).writeTo(0xc420388c48, 0xc421104820, 0x95, 0xc3, 0xc421a78b10, 0x41, 0x0, 0x0)
+	/usr/lib/go-1.10/src/net/udpsock_posix.go:80 +0xcd
+net.(*UDPConn).WriteToUDP(0xc420388c48, 0xc421104820, 0x95, 0xc3, 0xc421a78b10, 0x75, 0xa3, 0xc421104881)
+	/usr/lib/go-1.10/src/net/udpsock.go:151 +0x7f
+github.com/ethereum/go-ethereum/p2p/discover.(*udp).write(0xc4202fa150, 0xc421a78b10, 0xf3cf3f, 0x7, 0xc421104820, 0x95, 0xc3, 0xc4225f4020, 0x20)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:497 +0x7c
+github.com/ethereum/go-ethereum/p2p/discover.(*udp).send(0xc4202fa150, 0xc421a78b10, 0x1b2d402, 0x10c2180, 0xc421a16f00, 0x6e32e4a2e, 0x1b2d420, 0x9213f1812d3ff4f3, 0x104d0fa1fdb9e03f, 0x9a6b820db15c1f6c)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:493 +0x16d
+github.com/ethereum/go-ethereum/p2p/discover.(*ping).handle(0xc42041efc0, 0xc4202fa150, 0xc421a78b10, 0x3f071050f08a65da, 0x3f0d2b8c0cdb5077, 0x3b96827e262e3e6, 0x9213f1812d3ff4f3, 0x104d0fa1fdb9e03f, 0x9a6b820db15c1f6c, 0xbf25848ba89101ba, ...)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:601 +0x1fe
+github.com/ethereum/go-ethereum/p2p/discover.(*udp).handlePacket(0xc4202fa150, 0xc421a78b10, 0xc4203de500, 0x8b, 0x500, 0xc421a78b10, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:561 +0x24c
+github.com/ethereum/go-ethereum/p2p/discover.(*udp).readLoop(0xc4202fa150, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:546 +0x210
+created by github.com/ethereum/go-ethereum/p2p/discover.newUDP
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:261 +0x338
+
+goroutine 163 [chan receive]:
+github.com/ethereum/go-ethereum/p2p/discover.(*Table).lookup(0xc42042a8c0, 0xe836fab213da7556, 0x56bbec6cc61cc0f0, 0x6c644f66e2e32090, 0x3a64f490592cda66, 0x8277a1228317eef6, 0x2465aa2c6adfafb3, 0x73da701b4057e160, 0xc00101fa0b4d1db3, 0x0, ...)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/table.go:307 +0x47b
+github.com/ethereum/go-ethereum/p2p/discover.(*Table).doRefresh(0xc42042a8c0, 0xc420ec0060)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/table.go:435 +0x120
+created by github.com/ethereum/go-ethereum/p2p/discover.(*Table).loop
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/table.go:366 +0x1bd
+
+goroutine 142 [IO wait]:
+internal/poll.runtime_pollWait(0x7f1896d0dd60, 0x72, 0x0)
+	/usr/lib/go-1.10/src/runtime/netpoll.go:173 +0x57
+internal/poll.(*pollDesc).wait(0xc4202a5f98, 0x72, 0xc42039b500, 0x0, 0x0)
+	/usr/lib/go-1.10/src/internal/poll/fd_poll_runtime.go:85 +0x9b
+internal/poll.(*pollDesc).waitRead(0xc4202a5f98, 0xffffffffffffff00, 0x0, 0x0)
+	/usr/lib/go-1.10/src/internal/poll/fd_poll_runtime.go:90 +0x3d
+internal/poll.(*FD).Accept(0xc4202a5f80, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/internal/poll/fd_unix.go:372 +0x1a8
+net.(*netFD).accept(0xc4202a5f80, 0xc422402160, 0xc420466f38, 0xc420f5a058)
+	/usr/lib/go-1.10/src/net/fd_unix.go:238 +0x42
+net.(*TCPListener).accept(0xc42029d1a0, 0x419d2b, 0xc420f5a000, 0x0)
+	/usr/lib/go-1.10/src/net/tcpsock_posix.go:136 +0x2e
+net.(*TCPListener).Accept(0xc42029d1a0, 0x0, 0xc420398000, 0x10ce200, 0xc42104a4f0)
+	/usr/lib/go-1.10/src/net/tcpsock.go:259 +0x49
+github.com/ethereum/go-ethereum/p2p.(*Server).listenLoop(0xc420398000)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:762 +0x23c
+created by github.com/ethereum/go-ethereum/p2p.(*Server).startListening
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:519 +0x159
+
+goroutine 143 [select]:
+github.com/ethereum/go-ethereum/p2p/nat.Map(0x10ca3c0, 0xc4200d9e80, 0xc420366000, 0xf397ee, 0x3, 0x765f, 0x765f, 0xf42a35, 0xc)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/nat/nat.go:114 +0x4b9
+github.com/ethereum/go-ethereum/p2p.(*Server).startListening.func1(0xc420398000, 0xc420e85500)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:524 +0x8b
+created by github.com/ethereum/go-ethereum/p2p.(*Server).startListening
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:523 +0x1ee
+
+goroutine 144 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Server).run(0xc420398000, 0x10ca340, 0xc420e82dc0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:589 +0x59f
+created by github.com/ethereum/go-ethereum/p2p.(*Server).Start
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:504 +0x78c
+
+goroutine 145 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0xc4203ca8c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:56 +0x37e
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:54 +0x48
+
+goroutine 194 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0xc4203ca8c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:56 +0x37e
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:54 +0x48
+
+goroutine 195 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0xc4203ca8c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:56 +0x37e
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:54 +0x48
+
+goroutine 196 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0xc4203ca8c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:56 +0x37e
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:54 +0x48
+
+goroutine 197 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0xc4203ca8c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:56 +0x37e
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:54 +0x48
+
+goroutine 198 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0xc4203ca8c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:56 +0x37e
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:54 +0x48
+
+goroutine 199 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0xc4203ca8c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:56 +0x37e
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:54 +0x48
+
+goroutine 200 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0xc4203ca8c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:56 +0x37e
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:54 +0x48
+
+goroutine 201 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0xc4203ca8c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:56 +0x37e
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:54 +0x48
+
+goroutine 202 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0xc4203ca8c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:56 +0x37e
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:54 +0x48
+
+goroutine 203 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0xc4203ca8c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:56 +0x37e
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:54 +0x48
+
+goroutine 204 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0xc4203ca8c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:56 +0x37e
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:54 +0x48
+
+goroutine 205 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0xc4203ca8c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:56 +0x37e
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:54 +0x48
+
+goroutine 206 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0xc4203ca8c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:56 +0x37e
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:54 +0x48
+
+goroutine 207 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0xc4203ca8c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:56 +0x37e
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:54 +0x48
+
+goroutine 208 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0xc4203ca8c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:56 +0x37e
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/bloombits.go:54 +0x48
+
+goroutine 209 [select]:
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).txBroadcastLoop(0xc42044c300)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:757 +0x134
+created by github.com/ethereum/go-ethereum/eth.(*ProtocolManager).Start
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:209 +0xcb
+
+goroutine 210 [chan receive]:
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).minedBroadcastLoop(0xc42044c300)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:746 +0x59
+created by github.com/ethereum/go-ethereum/eth.(*ProtocolManager).Start
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:213 +0x155
+
+goroutine 211 [select]:
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).syncer(0xc42044c300)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/sync.go:145 +0x1ca
+created by github.com/ethereum/go-ethereum/eth.(*ProtocolManager).Start
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:216 +0x177
+
+goroutine 212 [select]:
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).txsyncLoop(0xc42044c300)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/sync.go:109 +0x25c
+created by github.com/ethereum/go-ethereum/eth.(*ProtocolManager).Start
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go:217 +0x199
+
+goroutine 213 [select]:
+github.com/ethereum/go-ethereum/eth/downloader.(*PublicDownloaderAPI).eventLoop(0xc420e8eb20)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/downloader/api.go:63 +0x2f7
+created by github.com/ethereum/go-ethereum/eth/downloader.NewPublicDownloaderAPI
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/downloader/api.go:49 +0xd7
+
+goroutine 214 [select]:
+github.com/ethereum/go-ethereum/eth/filters.(*EventSystem).eventLoop(0xc420e82e60)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/filters/filter_system.go:465 +0x53d
+created by github.com/ethereum/go-ethereum/eth/filters.NewEventSystem
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/filters/filter_system.go:146 +0x3fd
+
+goroutine 215 [chan receive]:
+github.com/ethereum/go-ethereum/eth/filters.(*PublicFilterAPI).timeoutLoop(0xc420297400)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/filters/api.go:83 +0x124
+created by github.com/ethereum/go-ethereum/eth/filters.NewPublicFilterAPI
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/eth/filters/api.go:73 +0x15f
+
+goroutine 33 [chan receive]:
+github.com/ethereum/go-ethereum/p2p.(*rlpx).doProtoHandshake(0xc420f98480, 0xc420377830, 0xc420366120, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:135 +0xe4
+github.com/ethereum/go-ethereum/p2p.(*Server).setupConn(0xc420398000, 0xc420fe9400, 0x1, 0xc42043bb80, 0xc42029c118, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:835 +0x72f
+github.com/ethereum/go-ethereum/p2p.(*Server).SetupConn(0xc420398000, 0x10ce200, 0xc42029c118, 0x1, 0xc42043bb80, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:801 +0x151
+github.com/ethereum/go-ethereum/p2p.(*dialTask).dial(0xc4215dc5a0, 0xc420398000, 0xc42043bb80, 0xc420462e70, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/dial.go:354 +0x118
+github.com/ethereum/go-ethereum/p2p.(*dialTask).Do(0xc4215dc5a0, 0xc420398000)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/dial.go:297 +0x58
+github.com/ethereum/go-ethereum/p2p.(*Server).run.func2.1(0x10be520, 0xc4215dc5a0, 0xc420398000, 0xc420f8a720)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:570 +0x3b
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run.func2
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:570 +0x19a
+
+goroutine 354 [runnable]:
+internal/poll.runtime_pollWait(0x7f1896d0d880, 0x72, 0xc422485380)
+	/usr/lib/go-1.10/src/runtime/netpoll.go:173 +0x57
+internal/poll.(*pollDesc).wait(0xc4202a4518, 0x72, 0xffffffffffffff00, 0x10c0820, 0x17dc090)
+	/usr/lib/go-1.10/src/internal/poll/fd_poll_runtime.go:85 +0x9b
+internal/poll.(*pollDesc).waitRead(0xc4202a4518, 0xc422578000, 0xd2, 0xd2)
+	/usr/lib/go-1.10/src/internal/poll/fd_poll_runtime.go:90 +0x3d
+internal/poll.(*FD).Read(0xc4202a4500, 0xc422578000, 0xd2, 0xd2, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/internal/poll/fd_unix.go:157 +0x17d
+net.(*netFD).Read(0xc4202a4500, 0xc422578000, 0xd2, 0xd2, 0x46aea0, 0x7f1896d6b1e8, 0xc42257221f)
+	/usr/lib/go-1.10/src/net/fd_unix.go:202 +0x4f
+net.(*conn).Read(0xc420f7a1b0, 0xc422578000, 0xd2, 0xd2, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/net/net.go:176 +0x6a
+io.ReadAtLeast(0x7f188c481a20, 0xc420f7a1b0, 0xc422578000, 0xd2, 0xd2, 0xd2, 0xda0500, 0x440201, 0xc422578000)
+	/usr/lib/go-1.10/src/io/io.go:309 +0x86
+io.ReadFull(0x7f188c481a20, 0xc420f7a1b0, 0xc422578000, 0xd2, 0xd2, 0xd2, 0x4ac523, 0xc4202a4500)
+	/usr/lib/go-1.10/src/io/io.go:327 +0x58
+github.com/ethereum/go-ethereum/p2p.readHandshakeMsg(0x10be4c0, 0xc4211c2200, 0xd2, 0xc4202c0ba0, 0x7f188c481a20, 0xc420f7a1b0, 0x0, 0x0, 0x7f1896d13d10, 0xc4202a4500, ...)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:489 +0xa8
+github.com/ethereum/go-ethereum/p2p.initiatorEncHandshake(0x7f188c573bf0, 0xc420f7a1b0, 0xc4202c0ba0, 0x76f12b08d05c9287, 0xfa7f1e30b0d2ba5d, 0xbbace933d703c1cf, 0x1bd9767f1086182c, 0x3b0ab671115ace09, 0xa3e9a832fbbb46fb, 0xb2c71cdb5f107b53, ...)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:298 +0x22d
+github.com/ethereum/go-ethereum/p2p.(*rlpx).doEncHandshake(0xc421a789c0, 0xc4202c0ba0, 0xc42043bae0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:186 +0x13f
+github.com/ethereum/go-ethereum/p2p.(*Server).setupConn(0xc420398000, 0xc422490000, 0x1, 0xc42043bae0, 0xc420f7a1b0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:819 +0xbc
+github.com/ethereum/go-ethereum/p2p.(*Server).SetupConn(0xc420398000, 0x10ce200, 0xc420f7a1b0, 0x1, 0xc42043bae0, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:801 +0x151
+github.com/ethereum/go-ethereum/p2p.(*dialTask).dial(0xc4215dc5d0, 0xc420398000, 0xc42043bae0, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/dial.go:354 +0x118
+github.com/ethereum/go-ethereum/p2p.(*dialTask).Do(0xc4215dc5d0, 0xc420398000)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/dial.go:297 +0x58
+github.com/ethereum/go-ethereum/p2p.(*Server).run.func2.1(0x10be520, 0xc4215dc5d0, 0xc420398000, 0xc420f8a720)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:570 +0x3b
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run.func2
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:570 +0x19a
+
+goroutine 356 [IO wait]:
+internal/poll.runtime_pollWait(0x7f1896d0daf0, 0x77, 0xc420fb8480)
+	/usr/lib/go-1.10/src/runtime/netpoll.go:173 +0x57
+internal/poll.(*pollDesc).wait(0xc421a86718, 0x77, 0xc420fa0700, 0xc420fa0718, 0x44a2d4)
+	/usr/lib/go-1.10/src/internal/poll/fd_poll_runtime.go:85 +0x9b
+internal/poll.(*pollDesc).waitWrite(0xc421a86718, 0xc420fa0700, 0x28, 0x5d22f6)
+	/usr/lib/go-1.10/src/internal/poll/fd_poll_runtime.go:94 +0x3d
+internal/poll.(*FD).WaitWrite(0xc421a86700, 0xfcb5e0, 0x10c9c40)
+	/usr/lib/go-1.10/src/internal/poll/fd_unix.go:440 +0x37
+net.(*netFD).connect(0xc421a86700, 0x10c9c40, 0xc421a16d20, 0x0, 0x0, 0x10bf8c0, 0xc421146ca0, 0x0, 0x0, 0x0, ...)
+	/usr/lib/go-1.10/src/net/fd_unix.go:152 +0x299
+net.(*netFD).dial(0xc421a86700, 0x10c9c40, 0xc421a16d20, 0x10cd000, 0x0, 0x10cd000, 0xc421a78930, 0xc420fa0938, 0x5ef47e)
+	/usr/lib/go-1.10/src/net/sock_posix.go:142 +0xe9
+net.socket(0x10c9c40, 0xc421a16d20, 0xf397ee, 0x3, 0x2, 0x1, 0x0, 0x0, 0x10cd000, 0x0, ...)
+	/usr/lib/go-1.10/src/net/sock_posix.go:93 +0x1a6
+net.internetSocket(0x10c9c40, 0xc421a16d20, 0xf397ee, 0x3, 0x10cd000, 0x0, 0x10cd000, 0xc421a78930, 0x1, 0x0, ...)
+	/usr/lib/go-1.10/src/net/ipsock_posix.go:141 +0x129
+net.doDialTCP(0x10c9c40, 0xc421a16d20, 0xf397ee, 0x3, 0x0, 0xc421a78930, 0x1b55a98, 0x0, 0x0)
+	/usr/lib/go-1.10/src/net/tcpsock_posix.go:62 +0xb9
+net.dialTCP(0x10c9c40, 0xc421a16d20, 0xf397ee, 0x3, 0x0, 0xc421a78930, 0x56c581631, 0x1b2d420, 0x37e11b46f)
+	/usr/lib/go-1.10/src/net/tcpsock_posix.go:58 +0xe4
+net.dialSingle(0x10c9c40, 0xc421a16d20, 0xc421a86680, 0x10c2f00, 0xc421a78930, 0x0, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/net/dial.go:547 +0x375
+net.dialSerial(0x10c9c40, 0xc421a16d20, 0xc421a86680, 0xc4219c82a0, 0x1, 0x1, 0x0, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/net/dial.go:515 +0x22d
+net.(*Dialer).DialContext(0xc4201bf200, 0x10c9c00, 0xc420118020, 0xf397ee, 0x3, 0xc421146c80, 0x13, 0x0, 0x0, 0x0, ...)
+	/usr/lib/go-1.10/src/net/dial.go:397 +0x678
+net.(*Dialer).Dial(0xc4201bf200, 0xf397ee, 0x3, 0xc421146c80, 0x13, 0x9, 0x7, 0xa, 0x6)
+	/usr/lib/go-1.10/src/net/dial.go:320 +0x75
+github.com/ethereum/go-ethereum/p2p.TCPDialer.Dial(0xc4201bf200, 0xc42043b860, 0x0, 0x7, 0x9, 0xa)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/dial.go:65 +0xa9
+github.com/ethereum/go-ethereum/p2p.(*dialTask).dial(0xc4215dc630, 0xc420398000, 0xc42043b860, 0x8, 0x8)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/dial.go:349 +0x48
+github.com/ethereum/go-ethereum/p2p.(*dialTask).Do(0xc4215dc630, 0xc420398000)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/dial.go:297 +0x58
+github.com/ethereum/go-ethereum/p2p.(*Server).run.func2.1(0x10be520, 0xc4215dc630, 0xc420398000, 0xc420f8a720)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:570 +0x3b
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run.func2
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:570 +0x19a
+
+goroutine 355 [IO wait]:
+internal/poll.runtime_pollWait(0x7f1896d0d610, 0x77, 0xc4204f7800)
+	/usr/lib/go-1.10/src/runtime/netpoll.go:173 +0x57
+internal/poll.(*pollDesc).wait(0xc421542198, 0x77, 0xc421326700, 0xc421326718, 0x44a2d4)
+	/usr/lib/go-1.10/src/internal/poll/fd_poll_runtime.go:85 +0x9b
+internal/poll.(*pollDesc).waitWrite(0xc421542198, 0xc421326700, 0x28, 0x5d22f6)
+	/usr/lib/go-1.10/src/internal/poll/fd_poll_runtime.go:94 +0x3d
+internal/poll.(*FD).WaitWrite(0xc421542180, 0xfcb5e0, 0x10c9c40)
+	/usr/lib/go-1.10/src/internal/poll/fd_unix.go:440 +0x37
+net.(*netFD).connect(0xc421542180, 0x10c9c40, 0xc42153c240, 0x0, 0x0, 0x10bf8c0, 0xc4215da0a0, 0x0, 0x0, 0x0, ...)
+	/usr/lib/go-1.10/src/net/fd_unix.go:152 +0x299
+net.(*netFD).dial(0xc421542180, 0x10c9c40, 0xc42153c240, 0x10cd000, 0x0, 0x10cd000, 0xc421590150, 0xc421326938, 0x5ef47e)
+	/usr/lib/go-1.10/src/net/sock_posix.go:142 +0xe9
+net.socket(0x10c9c40, 0xc42153c240, 0xf397ee, 0x3, 0x2, 0x1, 0x0, 0x0, 0x10cd000, 0x0, ...)
+	/usr/lib/go-1.10/src/net/sock_posix.go:93 +0x1a6
+net.internetSocket(0x10c9c40, 0xc42153c240, 0xf397ee, 0x3, 0x10cd000, 0x0, 0x10cd000, 0xc421590150, 0x1, 0x0, ...)
+	/usr/lib/go-1.10/src/net/ipsock_posix.go:141 +0x129
+net.doDialTCP(0x10c9c40, 0xc42153c240, 0xf397ee, 0x3, 0x0, 0xc421590150, 0x1b55a98, 0x0, 0x0)
+	/usr/lib/go-1.10/src/net/tcpsock_posix.go:62 +0xb9
+net.dialTCP(0x10c9c40, 0xc42153c240, 0xf397ee, 0x3, 0x0, 0xc421590150, 0x56fc47a94, 0x1b2d420, 0x37e11ab84)
+	/usr/lib/go-1.10/src/net/tcpsock_posix.go:58 +0xe4
+net.dialSingle(0x10c9c40, 0xc42153c240, 0xc421542100, 0x10c2f00, 0xc421590150, 0x0, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/net/dial.go:547 +0x375
+net.dialSerial(0x10c9c40, 0xc42153c240, 0xc421542100, 0xc4215d80e0, 0x1, 0x1, 0x0, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/net/dial.go:515 +0x22d
+net.(*Dialer).DialContext(0xc4201bf200, 0x10c9c00, 0xc420118020, 0xf397ee, 0x3, 0xc4215da080, 0x14, 0x0, 0x0, 0x0, ...)
+	/usr/lib/go-1.10/src/net/dial.go:397 +0x678
+net.(*Dialer).Dial(0xc4201bf200, 0xf397ee, 0x3, 0xc4215da080, 0x14, 0x8, 0x0, 0x8, 0x0)
+	/usr/lib/go-1.10/src/net/dial.go:320 +0x75
+github.com/ethereum/go-ethereum/p2p.TCPDialer.Dial(0xc4201bf200, 0xc42043b9a0, 0x0, 0x0, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/dial.go:65 +0xa9
+github.com/ethereum/go-ethereum/p2p.(*dialTask).dial(0xc4215dc600, 0xc420398000, 0xc42043b9a0, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/dial.go:349 +0x48
+github.com/ethereum/go-ethereum/p2p.(*dialTask).Do(0xc4215dc600, 0xc420398000)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/dial.go:297 +0x58
+github.com/ethereum/go-ethereum/p2p.(*Server).run.func2.1(0x10be520, 0xc4215dc600, 0xc420398000, 0xc420f8a720)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:570 +0x3b
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run.func2
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:570 +0x19a
+
+goroutine 216 [IO wait]:
+internal/poll.runtime_pollWait(0x7f1896d0de30, 0x72, 0x0)
+	/usr/lib/go-1.10/src/runtime/netpoll.go:173 +0x57
+internal/poll.(*pollDesc).wait(0xc420fe6f98, 0x72, 0xc4203e8600, 0x0, 0x0)
+	/usr/lib/go-1.10/src/internal/poll/fd_poll_runtime.go:85 +0x9b
+internal/poll.(*pollDesc).waitRead(0xc420fe6f98, 0xffffffffffffff00, 0x0, 0x0)
+	/usr/lib/go-1.10/src/internal/poll/fd_poll_runtime.go:90 +0x3d
+internal/poll.(*FD).Accept(0xc420fe6f80, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/internal/poll/fd_unix.go:372 +0x1a8
+net.(*netFD).accept(0xc420fe6f80, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/net/fd_unix.go:238 +0x42
+net.(*UnixListener).accept(0xc420fee270, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/net/unixsock_posix.go:162 +0x32
+net.(*UnixListener).Accept(0xc420fee270, 0x0, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/net/unixsock.go:253 +0x49
+github.com/ethereum/go-ethereum/rpc.(*Server).ServeListener(0xc420f77c40, 0x10c8340, 0xc420fee270, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/ipc.go:30 +0x49
+created by github.com/ethereum/go-ethereum/rpc.StartIPCEndpoint
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/endpoints.go:100 +0x2ad
+
+goroutine 217 [chan receive]:
+github.com/ethereum/go-ethereum/cmd/utils.StartNode.func1(0xc420371b80)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/cmd/utils/cmd.go:74 +0xee
+created by github.com/ethereum/go-ethereum/cmd/utils.StartNode
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/cmd/utils/cmd.go:70 +0xad
+
+goroutine 218 [chan receive]:
+main.startNode.func1(0xc420371b80, 0xc420fe32c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/cmd/geth/main.go:293 +0x308
+created by main.startNode
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/cmd/geth/main.go:278 +0x2c9
+
+goroutine 219 [select]:
+net.(*pipe).read(0xc420fe7100, 0xc420402601, 0x5ff, 0x5ff, 0x3, 0xc421025a68, 0x457ca7)
+	/usr/lib/go-1.10/src/net/pipe.go:164 +0x1d7
+net.(*pipe).Read(0xc420fe7100, 0xc420402601, 0x5ff, 0x5ff, 0x8, 0x18, 0xc4223f5e20)
+	/usr/lib/go-1.10/src/net/pipe.go:147 +0x4d
+encoding/json.(*Decoder).refill(0xc420ebe1e0, 0xc421025b0a, 0x9)
+	/usr/lib/go-1.10/src/encoding/json/stream.go:159 +0x132
+encoding/json.(*Decoder).readValue(0xc420ebe1e0, 0x0, 0x0, 0x426069)
+	/usr/lib/go-1.10/src/encoding/json/stream.go:134 +0x23d
+encoding/json.(*Decoder).Decode(0xc420ebe1e0, 0xdfdaa0, 0xc4223f5e40, 0x1, 0xc4223f5e40)
+	/usr/lib/go-1.10/src/encoding/json/stream.go:63 +0x78
+encoding/json.(*Decoder).Decode-fm(0xdfdaa0, 0xc4223f5e40, 0xc420297918, 0x7)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/json.go:119 +0x3e
+github.com/ethereum/go-ethereum/rpc.(*jsonCodec).ReadRequestHeaders(0xc420297900, 0x0, 0x0, 0x0, 0xc4202b2c00, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/json.go:144 +0xbe
+github.com/ethereum/go-ethereum/rpc.(*Server).readRequest(0xc420e8ec00, 0x10cef20, 0xc420297900, 0xc420e8ec00, 0xc42010d880, 0x10cef20, 0xc420297900, 0xc42104a480, 0x1)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/server.go:378 +0x5f
+github.com/ethereum/go-ethereum/rpc.(*Server).serveRequest(0xc420e8ec00, 0x10c9c00, 0xc420118020, 0x10cef20, 0xc420297900, 0x0, 0x3, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/server.go:163 +0x2ee
+github.com/ethereum/go-ethereum/rpc.(*Server).ServeCodec(0xc420e8ec00, 0x10cef20, 0xc420297900, 0x3)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/server.go:219 +0x94
+created by github.com/ethereum/go-ethereum/rpc.DialInProc.func1
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/inproc.go:29 +0xbd
+
+goroutine 220 [select]:
+github.com/ethereum/go-ethereum/rpc.(*Client).dispatch(0xc420374e00, 0x10ce320, 0xc420fe7180)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/client.go:541 +0x3df
+created by github.com/ethereum/go-ethereum/rpc.newClient
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/client.go:244 +0x2d0
+
+goroutine 221 [select]:
+github.com/ethereum/go-ethereum/internal/jsre.(*JSRE).runEventLoop(0xc420f4d5c0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/internal/jsre/jsre.go:177 +0x525
+created by github.com/ethereum/go-ethereum/internal/jsre.New
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/internal/jsre/jsre.go:78 +0x12e
+
+goroutine 27 [select]:
+net.(*pipe).read(0xc4202be680, 0xc421262400, 0x200, 0x200, 0xc421017a60, 0x457ca7, 0x200)
+	/usr/lib/go-1.10/src/net/pipe.go:164 +0x1d7
+net.(*pipe).Read(0xc4202be680, 0xc421262400, 0x200, 0x200, 0x0, 0x200, 0x0)
+	/usr/lib/go-1.10/src/net/pipe.go:147 +0x4d
+encoding/json.(*Decoder).refill(0xc421266000, 0x0, 0xc421017b98)
+	/usr/lib/go-1.10/src/encoding/json/stream.go:159 +0x132
+encoding/json.(*Decoder).readValue(0xc421266000, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/encoding/json/stream.go:134 +0x23d
+encoding/json.(*Decoder).Decode(0xc421266000, 0xdfdaa0, 0xc4204344a0, 0x1, 0xc4204344a0)
+	/usr/lib/go-1.10/src/encoding/json/stream.go:63 +0x78
+encoding/json.(*Decoder).Decode-fm(0xdfdaa0, 0xc4204344a0, 0xc42046e108, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/json.go:119 +0x3e
+github.com/ethereum/go-ethereum/rpc.(*jsonCodec).ReadRequestHeaders(0xc42046e0f0, 0x0, 0x0, 0x0, 0xc420118000, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/json.go:144 +0xbe
+github.com/ethereum/go-ethereum/rpc.(*Server).readRequest(0xc420e8ec00, 0x10cef20, 0xc42046e0f0, 0x1, 0xe4fa00, 0xc420ee8440, 0x10c9c80, 0xc42045c540, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/server.go:378 +0x5f
+github.com/ethereum/go-ethereum/rpc.(*Server).serveRequest(0xc420e8ec00, 0x10c9c00, 0xc420118020, 0x10cef20, 0xc42046e0f0, 0x0, 0x3, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/server.go:163 +0x2ee
+github.com/ethereum/go-ethereum/rpc.(*Server).ServeCodec(0xc420e8ec00, 0x10cef20, 0xc42046e0f0, 0x3)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/server.go:219 +0x94
+created by github.com/ethereum/go-ethereum/rpc.DialInProc.func1
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/inproc.go:29 +0xbd
+
+goroutine 28 [select]:
+github.com/ethereum/go-ethereum/rpc.(*Client).dispatch(0xc420148380, 0x10ce320, 0xc4202be700)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/client.go:541 +0x3df
+created by github.com/ethereum/go-ethereum/rpc.newClient
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/client.go:244 +0x2d0
+
+goroutine 29 [select]:
+net.(*pipe).read(0xc4202be700, 0xc421262200, 0x200, 0x200, 0xc4203e2d80, 0x457ca7, 0x200)
+	/usr/lib/go-1.10/src/net/pipe.go:164 +0x1d7
+net.(*pipe).Read(0xc4202be700, 0xc421262200, 0x200, 0x200, 0x0, 0x200, 0x7f1896bc95f8)
+	/usr/lib/go-1.10/src/net/pipe.go:147 +0x4d
+encoding/json.(*Decoder).refill(0xc4212661e0, 0x426069, 0x7f1896d696c8)
+	/usr/lib/go-1.10/src/encoding/json/stream.go:159 +0x132
+encoding/json.(*Decoder).readValue(0xc4212661e0, 0x0, 0x0, 0xd84c00)
+	/usr/lib/go-1.10/src/encoding/json/stream.go:134 +0x23d
+encoding/json.(*Decoder).Decode(0xc4212661e0, 0xdfdaa0, 0xc420434340, 0xc4203e2fc0, 0xc4203e2f10)
+	/usr/lib/go-1.10/src/encoding/json/stream.go:63 +0x78
+github.com/ethereum/go-ethereum/rpc.(*Client).read.func1(0xe57520, 0xc420434360, 0xc4202be700, 0x7f1896d1ce00, 0xc4202be700)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/client.go:682 +0x79
+github.com/ethereum/go-ethereum/rpc.(*Client).read(0xc420148380, 0x10ce320, 0xc4202be700, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/client.go:695 +0x14d
+created by github.com/ethereum/go-ethereum/rpc.(*Client).dispatch
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/client.go:517 +0x71
+
+goroutine 274 [select]:
+net.(*pipe).read(0xc420fe7180, 0xc420402c01, 0x5ff, 0x5ff, 0xc42132ad78, 0x553848, 0xc422394ec0)
+	/usr/lib/go-1.10/src/net/pipe.go:164 +0x1d7
+net.(*pipe).Read(0xc420fe7180, 0xc420402c01, 0x5ff, 0x5ff, 0x56716f, 0xc42132ae08, 0x0)
+	/usr/lib/go-1.10/src/net/pipe.go:147 +0x4d
+encoding/json.(*Decoder).refill(0xc421330000, 0xc42132ae0a, 0x9)
+	/usr/lib/go-1.10/src/encoding/json/stream.go:159 +0x132
+encoding/json.(*Decoder).readValue(0xc421330000, 0x0, 0x0, 0xd84c00)
+	/usr/lib/go-1.10/src/encoding/json/stream.go:134 +0x23d
+encoding/json.(*Decoder).Decode(0xc421330000, 0xdfdaa0, 0xc42132e000, 0xc42132af10, 0x4191b5)
+	/usr/lib/go-1.10/src/encoding/json/stream.go:63 +0x78
+github.com/ethereum/go-ethereum/rpc.(*Client).read.func1(0xc420f2f380, 0xc42132af90, 0x1, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/client.go:682 +0x79
+github.com/ethereum/go-ethereum/rpc.(*Client).read(0xc420374e00, 0x10ce320, 0xc420fe7180, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/client.go:695 +0x14d
+created by github.com/ethereum/go-ethereum/rpc.(*Client).dispatch
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/rpc/client.go:517 +0x71
+
+goroutine 232 [select]:
+net.(*Resolver).LookupIPAddr(0x1b270f0, 0x10c9c00, 0xc420118020, 0xf46873, 0xc, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/net/lookup.go:206 +0x4ca
+net.(*Resolver).internetAddrList(0x1b270f0, 0x10c9c00, 0xc420118020, 0xf397fa, 0x3, 0xf46873, 0x10, 0xa896ccdd12a470c3, 0x585ad29d984d91bc, 0xae923c69c9e62ba4, ...)
+	/usr/lib/go-1.10/src/net/ipsock.go:293 +0x5c4
+net.ResolveUDPAddr(0xf397fa, 0x3, 0xf46873, 0x10, 0xc4203e7f30, 0x94ead2, 0xc4201299e0)
+	/usr/lib/go-1.10/src/net/udpsock.go:79 +0xa4
+github.com/ethereum/go-ethereum/p2p/discover.sntpDrift(0x3, 0x0, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/ntp.go:67 +0x8a
+github.com/ethereum/go-ethereum/p2p/discover.checkClockDrift()
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/ntp.go:47 +0x31
+created by github.com/ethereum/go-ethereum/p2p/discover.(*udp).loop
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:448 +0x669
+
+goroutine 276 [runnable]:
+github.com/ethereum/go-ethereum/log.Trace(0xc4225c8000, 0xe, 0xc42024bbf0, 0x4, 0x4)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/log/root.go:33 +0x80
+github.com/ethereum/go-ethereum/p2p/discover.(*udp).write(0xc4202fa150, 0xc4224f0030, 0xf414ed, 0xb, 0xc4224f8000, 0xab, 0xc3, 0xc4225b6020, 0x20)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:498 +0x179
+github.com/ethereum/go-ethereum/p2p/discover.(*udp).send(0xc4202fa150, 0xc4224f0030, 0x1b2d403, 0x10c20c0, 0xc4224d0120, 0x6b74e4058, 0x1b2d420, 0x824c2b3f86f37e2f, 0x4d342227abf3bb0a, 0x4)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:493 +0x16d
+github.com/ethereum/go-ethereum/p2p/discover.(*udp).findnode(0xc4202fa150, 0x93808416098ade78, 0x28191dd8ea9037c7, 0x32991165d537c7be, 0x7a4b940d106b8cb9, 0xc79f687f844fe995, 0x189d12312e9d3923, 0x824c2b3f86f37e2f, 0x4d342227abf3bb0a, 0xc4224f0030, ...)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:331 +0x2d9
+github.com/ethereum/go-ethereum/p2p/discover.(*Table).findnode(0xc42042a8c0, 0xc42043ac80, 0xe836fab213da7556, 0x56bbec6cc61cc0f0, 0x6c644f66e2e32090, 0x3a64f490592cda66, 0x8277a1228317eef6, 0x2465aa2c6adfafb3, 0x73da701b4057e160, 0xc00101fa0b4d1db3, ...)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/table.go:320 +0x144
+created by github.com/ethereum/go-ethereum/p2p/discover.(*Table).lookup
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/table.go:299 +0x430
+
+goroutine 343 [runnable]:
+net.unpackStruct(0x7f188c3b9000, 0xc4225cc090, 0xc421262800, 0xe8, 0x200, 0x1e, 0x2a, 0xc42246bb01)
+	/usr/lib/go-1.10/src/net/dnsmsg.go:507 +0x172
+net.unpackRR(0xc421262800, 0xe8, 0x200, 0x1e, 0x200, 0xc, 0x1e, 0x1)
+	/usr/lib/go-1.10/src/net/dnsmsg.go:667 +0x171
+net.(*dnsMsg).Unpack(0xc4225c6000, 0xc421262800, 0xe8, 0x200, 0xe8)
+	/usr/lib/go-1.10/src/net/dnsmsg.go:811 +0x3c2
+net.(*dnsPacketConn).dnsRoundTrip(0xc4223fad50, 0xc4223d5d80, 0x1b2d420, 0x1b2d420, 0x0)
+	/usr/lib/go-1.10/src/net/dnsclient_unix.go:62 +0x142
+net.(*Resolver).exchange(0x1b270f0, 0x10c9c00, 0xc420118020, 0xc4220bddc0, 0x10, 0xc4220bde80, 0xd, 0xc420ef0001, 0x12a05f200, 0x0, ...)
+	/usr/lib/go-1.10/src/net/dnsclient_unix.go:138 +0x44b
+net.(*Resolver).tryOneName(0x1b270f0, 0x10c9c00, 0xc420118020, 0xc420f80500, 0xc4220bde80, 0xd, 0xc420390001, 0xc420ef9e70, 0xc420ef9f50, 0xc420ef9f88, ...)
+	/usr/lib/go-1.10/src/net/dnsclient_unix.go:161 +0x148
+net.(*Resolver).goLookupIPCNAMEOrder.func1(0x1b270f0, 0x10c9c00, 0xc420118020, 0xc420f80500, 0xc422235c20, 0xc422268300, 0x1)
+	/usr/lib/go-1.10/src/net/dnsclient_unix.go:485 +0xb9
+created by net.(*Resolver).goLookupIPCNAMEOrder
+	/usr/lib/go-1.10/src/net/dnsclient_unix.go:483 +0x242
+
+goroutine 357 [chan receive]:
+github.com/ethereum/go-ethereum/p2p.(*rlpx).doProtoHandshake(0xc4210be720, 0xc420377830, 0xc420366120, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:132 +0x1d9
+github.com/ethereum/go-ethereum/p2p.(*Server).setupConn(0xc420398000, 0xc420f38000, 0x1, 0xc42043b7c0, 0xc4211bc120, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:835 +0x72f
+github.com/ethereum/go-ethereum/p2p.(*Server).SetupConn(0xc420398000, 0x10ce200, 0xc4211bc120, 0x1, 0xc42043b7c0, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:801 +0x151
+github.com/ethereum/go-ethereum/p2p.(*dialTask).dial(0xc4215dc660, 0xc420398000, 0xc42043b7c0, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/dial.go:354 +0x118
+github.com/ethereum/go-ethereum/p2p.(*dialTask).Do(0xc4215dc660, 0xc420398000)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/dial.go:297 +0x58
+github.com/ethereum/go-ethereum/p2p.(*Server).run.func2.1(0x10be520, 0xc4215dc660, 0xc420398000, 0xc420f8a720)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:570 +0x3b
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run.func2
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:570 +0x19a
+
+goroutine 252 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner.(*State).readNext(0xc420032640, 0xfca701, 0xc420032640, 0xc421014b50, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner/input.go:137 +0x1dc
+github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner.(*State).PromptWithSuggestion(0xc420032640, 0xf3903f, 0x2, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner/line.go:637 +0x7dd
+github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner.(*State).Prompt(0xc420032640, 0xf3903f, 0x2, 0xc4211b2c58, 0x46ae50, 0xc4211b2c00, 0xc421056f40)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner/line.go:581 +0x50
+github.com/ethereum/go-ethereum/console.(*terminalPrompter).PromptInput(0xc420111200, 0xf3903f, 0x2, 0x0, 0x0, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/console/prompter.go:119 +0xac
+github.com/ethereum/go-ethereum/console.(*Console).Interactive.func1(0xc420375110, 0xc4211b2c00, 0xc4223faa50, 0xc4223d9078, 0xc4223faa60)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/console/console.go:321 +0x6c
+created by github.com/ethereum/go-ethereum/console.(*Console).Interactive
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/console/console.go:318 +0x122
+
+goroutine 253 [syscall]:
+syscall.Syscall(0x0, 0x0, 0xc420214000, 0x1000, 0xc4213bea80, 0xc42039a200, 0xc42029d228)
+	/usr/lib/go-1.10/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0x0, 0xc420214000, 0x1000, 0x1000, 0xc42039a201, 0x0, 0x0)
+	/usr/lib/go-1.10/src/syscall/zsyscall_linux_amd64.go:749 +0x5f
+syscall.Read(0x0, 0xc420214000, 0x1000, 0x1000, 0xc421056e40, 0x449c6b, 0x419a35)
+	/usr/lib/go-1.10/src/syscall/syscall_unix.go:162 +0x49
+internal/poll.(*FD).Read(0xc42011c000, 0xc420214000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/internal/poll/fd_unix.go:153 +0x118
+os.(*File).read(0xc42011a000, 0xc420214000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/os/file_unix.go:226 +0x4e
+os.(*File).Read(0xc42011a000, 0xc420214000, 0x1000, 0x1000, 0xc4211b2c00, 0xc421056f40, 0x419d2b)
+	/usr/lib/go-1.10/src/os/file.go:107 +0x6a
+bufio.(*Reader).fill(0xc420031200)
+	/usr/lib/go-1.10/src/bufio/bufio.go:100 +0x11e
+bufio.(*Reader).ReadRune(0xc420031200, 0x0, 0x0, 0xf3903f, 0x2)
+	/usr/lib/go-1.10/src/bufio/bufio.go:273 +0x2c
+github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner.(*State).restartPrompt.func1(0xc420032640, 0xc4223c9f80)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner/input.go:94 +0x33
+created by github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner.(*State).restartPrompt
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner/input.go:91 +0x6b
+
+goroutine 233 [chan receive]:
+net.(*Resolver).goLookupIPCNAMEOrder(0x1b270f0, 0x10c9c00, 0xc420118020, 0xf46873, 0xc, 0x1, 0xf397fa, 0x3, 0xf46873, 0x10, ...)
+	/usr/lib/go-1.10/src/net/dnsclient_unix.go:491 +0x387
+net.(*Resolver).lookupIP(0x1b270f0, 0x10c9c00, 0xc420118020, 0xf46873, 0xc, 0x3, 0xc420fb8c00, 0xc420ee84c0, 0xc4203e7f30, 0x94ead2)
+	/usr/lib/go-1.10/src/net/lookup_unix.go:101 +0xaa
+net.(*Resolver).(net.lookupIP)-fm(0x10c9c00, 0xc420118020, 0xf46873, 0xc, 0x43f9a9, 0xc400000008, 0xc420ee84c0, 0x676607, 0xc4203e7ea0)
+	/usr/lib/go-1.10/src/net/lookup.go:192 +0x56
+net.glob..func10(0x10c9c00, 0xc420118020, 0xc421cc4200, 0xf46873, 0xc, 0xc420fb8a80, 0xc4203e7f38, 0x820ee6, 0xc420e8ec00, 0x10c9c80)
+	/usr/lib/go-1.10/src/net/hook.go:19 +0x52
+net.(*Resolver).LookupIPAddr.func1(0x0, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/net/lookup.go:200 +0xd8
+internal/singleflight.(*Group).doCall(0x1b270e0, 0xc421476410, 0xf46873, 0xc, 0xc4210be600)
+	/usr/lib/go-1.10/src/internal/singleflight/singleflight.go:95 +0x2e
+created by internal/singleflight.(*Group).DoChan
+	/usr/lib/go-1.10/src/internal/singleflight/singleflight.go:88 +0x2d0
+
+goroutine 358 [runnable]:
+internal/poll.runtime_pollWait(0x7f1896d0da20, 0x72, 0xc4224b5380)
+	/usr/lib/go-1.10/src/runtime/netpoll.go:173 +0x57
+internal/poll.(*pollDesc).wait(0xc4223d5b98, 0x72, 0xffffffffffffff00, 0x10c0820, 0x17dc090)
+	/usr/lib/go-1.10/src/internal/poll/fd_poll_runtime.go:85 +0x9b
+internal/poll.(*pollDesc).waitRead(0xc4223d5b98, 0xc422594000, 0xd2, 0xd2)
+	/usr/lib/go-1.10/src/internal/poll/fd_poll_runtime.go:90 +0x3d
+internal/poll.(*FD).Read(0xc4223d5b80, 0xc422594000, 0xd2, 0xd2, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/internal/poll/fd_unix.go:157 +0x17d
+net.(*netFD).Read(0xc4223d5b80, 0xc422594000, 0xd2, 0xd2, 0x46aea0, 0x7f1896d69000, 0xc42258c01f)
+	/usr/lib/go-1.10/src/net/fd_unix.go:202 +0x4f
+net.(*conn).Read(0xc4211bc128, 0xc422594000, 0xd2, 0xd2, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/net/net.go:176 +0x6a
+io.ReadAtLeast(0x7f188c481a20, 0xc4211bc128, 0xc422594000, 0xd2, 0xd2, 0xd2, 0xda0500, 0x440201, 0xc422594000)
+	/usr/lib/go-1.10/src/io/io.go:309 +0x86
+io.ReadFull(0x7f188c481a20, 0xc4211bc128, 0xc422594000, 0xd2, 0xd2, 0xd2, 0x4ac523, 0xc4223d5b80)
+	/usr/lib/go-1.10/src/io/io.go:327 +0x58
+github.com/ethereum/go-ethereum/p2p.readHandshakeMsg(0x10be4c0, 0xc421542200, 0xd2, 0xc4202c0ba0, 0x7f188c481a20, 0xc4211bc128, 0x0, 0x0, 0x7f188c47e450, 0xc4223d5b80, ...)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:489 +0xa8
+github.com/ethereum/go-ethereum/p2p.initiatorEncHandshake(0x7f188c573bf0, 0xc4211bc128, 0xc4202c0ba0, 0xb000f19f703dc65e, 0x8e1919e5a068ce89, 0x4dc13a20dd3d5bc6, 0xb002bd51d142e8bf, 0x76e7fe343c33036b, 0x8d393cb164918679, 0x30f09ed12f15b8df, ...)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:298 +0x22d
+github.com/ethereum/go-ethereum/p2p.(*rlpx).doEncHandshake(0xc4210be810, 0xc4202c0ba0, 0xc42043b720, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:186 +0x13f
+github.com/ethereum/go-ethereum/p2p.(*Server).setupConn(0xc420398000, 0xc420f380a0, 0x1, 0xc42043b720, 0xc4211bc128, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:819 +0xbc
+github.com/ethereum/go-ethereum/p2p.(*Server).SetupConn(0xc420398000, 0x10ce200, 0xc4211bc128, 0x1, 0xc42043b720, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:801 +0x151
+github.com/ethereum/go-ethereum/p2p.(*dialTask).dial(0xc4215dc690, 0xc420398000, 0xc42043b720, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/dial.go:354 +0x118
+github.com/ethereum/go-ethereum/p2p.(*dialTask).Do(0xc4215dc690, 0xc420398000)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/dial.go:297 +0x58
+github.com/ethereum/go-ethereum/p2p.(*Server).run.func2.1(0x10be520, 0xc4215dc690, 0xc420398000, 0xc420f8a720)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:570 +0x3b
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run.func2
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:570 +0x19a
+
+goroutine 359 [runnable]:
+github.com/ethereum/go-ethereum/crypto/sha3.(*state).Read(0xc4225be000, 0xc4225c0000, 0x20, 0x20, 0x20, 0x20, 0xc4224e83a0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/crypto/sha3/sha3.go:160 +0x1dc
+github.com/ethereum/go-ethereum/crypto/sha3.(*state).Sum(0xc4224eb6c0, 0x0, 0x0, 0x0, 0x10, 0x10, 0x10)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/crypto/sha3/sha3.go:190 +0x11d
+github.com/ethereum/go-ethereum/p2p.updateMAC(0x10cb400, 0xc4224eb6c0, 0x10c5280, 0xc4224f02a0, 0xc4224e8460, 0x20, 0x20, 0x0, 0x10, 0x20)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:726 +0x86
+github.com/ethereum/go-ethereum/p2p.(*rlpxFrameRW).ReadMsg(0xc4224f40e0, 0x2, 0xc422489cf0, 0x2, 0xc422489c00, 0x426069, 0xc4224d0360, 0x60, 0x60, 0xef97e0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:684 +0x47c
+github.com/ethereum/go-ethereum/p2p.readProtocolHandshake(0x10be580, 0xc4224f40e0, 0xc420377830, 0xc42244c090, 0xc420377830, 0x2)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:145 +0x73
+github.com/ethereum/go-ethereum/p2p.(*rlpx).doProtoHandshake(0xc42244c090, 0xc420377830, 0xc420366120, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:131 +0xa7
+github.com/ethereum/go-ethereum/p2p.(*Server).setupConn(0xc420398000, 0xc420ffe000, 0x1, 0xc42043b680, 0xc42000e020, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:835 +0x72f
+github.com/ethereum/go-ethereum/p2p.(*Server).SetupConn(0xc420398000, 0x10ce200, 0xc42000e020, 0x1, 0xc42043b680, 0x0, 0x4268b8)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:801 +0x151
+github.com/ethereum/go-ethereum/p2p.(*dialTask).dial(0xc4215dc6c0, 0xc420398000, 0xc42043b680, 0xc420434360, 0xc4202be700)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/dial.go:354 +0x118
+github.com/ethereum/go-ethereum/p2p.(*dialTask).Do(0xc4215dc6c0, 0xc420398000)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/dial.go:297 +0x58
+github.com/ethereum/go-ethereum/p2p.(*Server).run.func2.1(0x10be520, 0xc4215dc6c0, 0xc420398000, 0xc420f8a720)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:570 +0x3b
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run.func2
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:570 +0x19a
+
+goroutine 360 [runnable]:
+internal/poll.runtime_pollWait(0x7f1896d0dbc0, 0x72, 0xc420fad380)
+	/usr/lib/go-1.10/src/runtime/netpoll.go:173 +0x57
+internal/poll.(*pollDesc).wait(0xc42219e498, 0x72, 0xffffffffffffff00, 0x10c0820, 0x17dc090)
+	/usr/lib/go-1.10/src/internal/poll/fd_poll_runtime.go:85 +0x9b
+internal/poll.(*pollDesc).waitRead(0xc42219e498, 0xc4201fe000, 0xd2, 0xd2)
+	/usr/lib/go-1.10/src/internal/poll/fd_poll_runtime.go:90 +0x3d
+internal/poll.(*FD).Read(0xc42219e480, 0xc4201fe0e0, 0xd2, 0xd2, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/internal/poll/fd_unix.go:157 +0x17d
+net.(*netFD).Read(0xc42219e480, 0xc4201fe0e0, 0xd2, 0xd2, 0x46aea0, 0x7f1896d69d90, 0xc42252201f)
+	/usr/lib/go-1.10/src/net/fd_unix.go:202 +0x4f
+net.(*conn).Read(0xc420fc6fa0, 0xc4201fe0e0, 0xd2, 0xd2, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/net/net.go:176 +0x6a
+io.ReadAtLeast(0x7f188c481a20, 0xc420fc6fa0, 0xc4201fe0e0, 0xd2, 0xd2, 0xd2, 0xda0500, 0x440201, 0xc4201fe0e0)
+	/usr/lib/go-1.10/src/io/io.go:309 +0x86
+io.ReadFull(0x7f188c481a20, 0xc420fc6fa0, 0xc4201fe0e0, 0xd2, 0xd2, 0xd2, 0x4ac523, 0xc42219e480)
+	/usr/lib/go-1.10/src/io/io.go:327 +0x58
+github.com/ethereum/go-ethereum/p2p.readHandshakeMsg(0x10be4c0, 0xc42219e880, 0xd2, 0xc4202c0ba0, 0x7f188c481a20, 0xc420fc6fa0, 0x0, 0x0, 0x7f188c570770, 0xc42219e480, ...)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:489 +0xa8
+github.com/ethereum/go-ethereum/p2p.initiatorEncHandshake(0x7f188c573bf0, 0xc420fc6fa0, 0xc4202c0ba0, 0xbb09843b72783b4d, 0xf4bc608520f90b4, 0x60d3a0809eb67a94, 0x773e567d4e2f03a0, 0x9ed41d30d5a553a3, 0xaf42977bf4810f72, 0x128f626c1c03c04a, ...)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:298 +0x22d
+github.com/ethereum/go-ethereum/p2p.(*rlpx).doEncHandshake(0xc42219cbd0, 0xc4202c0ba0, 0xc42043b5e0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:186 +0x13f
+github.com/ethereum/go-ethereum/p2p.(*Server).setupConn(0xc420398000, 0xc420147ea0, 0x1, 0xc42043b5e0, 0xc420fc6fa0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:819 +0xbc
+github.com/ethereum/go-ethereum/p2p.(*Server).SetupConn(0xc420398000, 0x10ce200, 0xc420fc6fa0, 0x1, 0xc42043b5e0, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:801 +0x151
+github.com/ethereum/go-ethereum/p2p.(*dialTask).dial(0xc4215dc6f0, 0xc420398000, 0xc42043b5e0, 0xda0240, 0x10b8e60)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/dial.go:354 +0x118
+github.com/ethereum/go-ethereum/p2p.(*dialTask).Do(0xc4215dc6f0, 0xc420398000)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/dial.go:297 +0x58
+github.com/ethereum/go-ethereum/p2p.(*Server).run.func2.1(0x10be520, 0xc4215dc6f0, 0xc420398000, 0xc420f8a720)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:570 +0x3b
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run.func2
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/server.go:570 +0x19a
+
+goroutine 323 [select]:
+net.(*netFD).connect.func2(0x10c9c40, 0xc421a16d20, 0xc421a86700, 0xc420fcc060, 0xc420fcc000)
+	/usr/lib/go-1.10/src/net/fd_unix.go:129 +0xde
+created by net.(*netFD).connect
+	/usr/lib/go-1.10/src/net/fd_unix.go:128 +0x286
+
+goroutine 259 [runnable]:
+io.Copy(0x10bfac0, 0xc4225c2000, 0x10be620, 0xc4210be930, 0x0, 0x0, 0xc4204a6344)
+	/usr/lib/go-1.10/src/io/io.go:361 +0x90
+github.com/ethereum/go-ethereum/p2p.(*rlpxFrameRW).WriteMsg(0xc42244a150, 0x0, 0x83, 0x10be620, 0xc4210be930, 0x0, 0x0, 0x0, 0xc420398000, 0xc42043b680)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:636 +0x5ae
+github.com/ethereum/go-ethereum/p2p.Send(0x10be5a0, 0xc42244a150, 0x0, 0xd6c6e0, 0xc420377830, 0x448f48, 0xfcbc88)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/message.go:97 +0x102
+github.com/ethereum/go-ethereum/p2p.(*rlpx).doProtoHandshake.func1(0xc422464300, 0xc4210be720, 0xc420377830)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:130 +0x5e
+created by github.com/ethereum/go-ethereum/p2p.(*rlpx).doProtoHandshake
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:130 +0x79
+
+goroutine 188 [select]:
+net.(*netFD).connect.func2(0x10c9c40, 0xc42153c240, 0xc421542180, 0xc4215d0a20, 0xc4215d09c0)
+	/usr/lib/go-1.10/src/net/fd_unix.go:129 +0xde
+created by net.(*netFD).connect
+	/usr/lib/go-1.10/src/net/fd_unix.go:128 +0x286
+
+goroutine 325 [runnable]:
+github.com/ethereum/go-ethereum/p2p/discover.(*udp).write(0xc4202fa150, 0xc4224a03f0, 0xf414ed, 0xb, 0xc4210445b0, 0xab, 0xc3, 0xc4225dc020, 0x20)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:498 +0x145
+github.com/ethereum/go-ethereum/p2p/discover.(*udp).send(0xc4202fa150, 0xc4224a03f0, 0x1b2d403, 0x10c20c0, 0xc420f8b500, 0x6d38410ca, 0x1b2d420, 0xd2caa2f95c1d4ae5, 0xf4868346a76deff0, 0x4)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:493 +0x16d
+github.com/ethereum/go-ethereum/p2p/discover.(*udp).findnode(0xc4202fa150, 0x50fed2adbf76d617, 0x7bfd7724c08c9565, 0x55cad146921e6801, 0x6c7306bb6717083e, 0x81bbb39d5961b0a4, 0x2567df3a770f8781, 0xd2caa2f95c1d4ae5, 0xf4868346a76deff0, 0xc4224a03f0, ...)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:331 +0x2d9
+github.com/ethereum/go-ethereum/p2p/discover.(*Table).findnode(0xc42042a8c0, 0xc420ffebe0, 0xe836fab213da7556, 0x56bbec6cc61cc0f0, 0x6c644f66e2e32090, 0x3a64f490592cda66, 0x8277a1228317eef6, 0x2465aa2c6adfafb3, 0x73da701b4057e160, 0xc00101fa0b4d1db3, ...)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/table.go:320 +0x144
+created by github.com/ethereum/go-ethereum/p2p/discover.(*Table).lookup
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/table.go:299 +0x430
+
+goroutine 326 [runnable]:
+internal/poll.runtime_Semacquire(0xc42017100c)
+	/usr/lib/go-1.10/src/runtime/sema.go:61 +0x39
+internal/poll.(*fdMutex).rwlock(0xc420171000, 0x0, 0x904cdc4f00000000)
+	/usr/lib/go-1.10/src/internal/poll/fd_mutex.go:152 +0xad
+internal/poll.(*FD).writeLock(0xc420171000, 0x20, 0x0)
+	/usr/lib/go-1.10/src/internal/poll/fd_mutex.go:237 +0x32
+internal/poll.(*FD).WriteTo(0xc420171000, 0xc4221880d0, 0xab, 0xc3, 0x10bf8e0, 0xc4225ea000, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/internal/poll/fd_unix.go:310 +0x46
+net.(*netFD).writeTo(0xc420171000, 0xc4221880d0, 0xab, 0xc3, 0x10bf8e0, 0xc4225ea000, 0xc4224b1bc0, 0xc4225e6000, 0xc4224b1c30)
+	/usr/lib/go-1.10/src/net/fd_unix.go:226 +0x6f
+net.(*UDPConn).writeTo(0xc420388c48, 0xc4221880d0, 0xab, 0xc3, 0xc4224a0300, 0x41, 0x0, 0x0)
+	/usr/lib/go-1.10/src/net/udpsock_posix.go:80 +0xcd
+net.(*UDPConn).WriteToUDP(0xc420388c48, 0xc4221880d0, 0xab, 0xc3, 0xc4224a0300, 0x8b, 0xa3, 0xc422188131)
+	/usr/lib/go-1.10/src/net/udpsock.go:151 +0x7f
+github.com/ethereum/go-ethereum/p2p/discover.(*udp).write(0xc4202fa150, 0xc4224a0300, 0xf414ed, 0xb, 0xc4221880d0, 0xab, 0xc3, 0xc4225e8020, 0x20)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:497 +0x7c
+github.com/ethereum/go-ethereum/p2p/discover.(*udp).send(0xc4202fa150, 0xc4224a0300, 0x1b2d403, 0x10c20c0, 0xc4222683c0, 0x6d3a5f83b, 0x1b2d420, 0xb2c71cdb5f107b53, 0x95bc050cc87d2d55, 0x4)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:493 +0x16d
+github.com/ethereum/go-ethereum/p2p/discover.(*udp).findnode(0xc4202fa150, 0x76f12b08d05c9287, 0xfa7f1e30b0d2ba5d, 0xbbace933d703c1cf, 0x1bd9767f1086182c, 0x3b0ab671115ace09, 0xa3e9a832fbbb46fb, 0xb2c71cdb5f107b53, 0x95bc050cc87d2d55, 0xc4224a0300, ...)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:331 +0x2d9
+github.com/ethereum/go-ethereum/p2p/discover.(*Table).findnode(0xc42042a8c0, 0xc420147d60, 0xe836fab213da7556, 0x56bbec6cc61cc0f0, 0x6c644f66e2e32090, 0x3a64f490592cda66, 0x8277a1228317eef6, 0x2465aa2c6adfafb3, 0x73da701b4057e160, 0xc00101fa0b4d1db3, ...)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/table.go:320 +0x144
+created by github.com/ethereum/go-ethereum/p2p/discover.(*Table).lookup
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/discover/table.go:299 +0x430
+
+goroutine 277 [syscall]:
+syscall.Syscall(0x1, 0x24, 0xc4225c4000, 0xc, 0xc420f8c900, 0xc4200d85c0, 0xc420f50b68)
+	/usr/lib/go-1.10/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.write(0x24, 0xc4225c4000, 0xc, 0xc, 0xc4200d8500, 0x0, 0x0)
+	/usr/lib/go-1.10/src/syscall/zsyscall_linux_amd64.go:1022 +0x5f
+syscall.Write(0x24, 0xc4225c4000, 0xc, 0xc, 0x1, 0x2, 0xc42256e0f0)
+	/usr/lib/go-1.10/src/syscall/syscall_unix.go:181 +0x49
+internal/poll.(*FD).Write(0xc422180280, 0xc4225c4000, 0xc, 0xc, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/internal/poll/fd_unix.go:256 +0x142
+net.(*netFD).Write(0xc422180280, 0xc4225c4000, 0xc, 0xc, 0x10, 0xc422590294, 0x16c)
+	/usr/lib/go-1.10/src/net/fd_unix.go:220 +0x4f
+net.(*conn).Write(0xc42000e020, 0xc4225c4000, 0xc, 0xc, 0x0, 0x0, 0x0)
+	/usr/lib/go-1.10/src/net/net.go:188 +0x6a
+io.(*multiWriter).Write(0xc42256e100, 0xc4225c4000, 0xc, 0xc, 0xc4203485e0, 0xc, 0x10)
+	/usr/lib/go-1.10/src/io/multi.go:60 +0x8f
+crypto/cipher.StreamWriter.Write(0x10bde60, 0xc4224c8140, 0x10bf220, 0xc42256e100, 0x0, 0x0, 0xc4203485e0, 0xc, 0x10, 0x1, ...)
+	/usr/lib/go-1.10/src/crypto/cipher/io.go:39 +0xdd
+github.com/ethereum/go-ethereum/p2p.(*rlpxFrameRW).WriteMsg(0xc4224f40e0, 0x0, 0x83, 0x10be620, 0xc420f5c270, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:640 +0x620
+github.com/ethereum/go-ethereum/p2p.Send(0x10be5a0, 0xc4224f40e0, 0x0, 0xd6c6e0, 0xc420377830, 0xe836fab213da7556, 0x56bbec6cc61cc0f0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/message.go:97 +0x102
+github.com/ethereum/go-ethereum/p2p.(*rlpx).doProtoHandshake.func1(0xc4224d0360, 0xc42244c090, 0xc420377830)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:130 +0x5e
+created by github.com/ethereum/go-ethereum/p2p.(*rlpx).doProtoHandshake
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:130 +0x79
+
+goroutine 327 [runnable]:
+github.com/ethereum/go-ethereum/crypto/sha3.(*state).Sum(0xc42253c8c0, 0x0, 0x0, 0x0, 0x10, 0x10, 0x200)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/crypto/sha3/sha3.go:189 +0xe7
+github.com/ethereum/go-ethereum/p2p.updateMAC(0x10cb400, 0xc42253c8c0, 0x10c5280, 0xc4224a05d0, 0xc420037e00, 0x10, 0x20, 0x30, 0xe8ea00, 0x587596)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:726 +0x86
+github.com/ethereum/go-ethereum/p2p.(*rlpxFrameRW).WriteMsg(0xc4224b62a0, 0x0, 0x83, 0x10be620, 0xc422406570, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:625 +0x32c
+github.com/ethereum/go-ethereum/p2p.Send(0x10be5a0, 0xc4224b62a0, 0x0, 0xd6c6e0, 0xc420377830, 0xe836fab213da7556, 0x56bbec6cc61cc0f0)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/message.go:97 +0x102
+github.com/ethereum/go-ethereum/p2p.(*rlpx).doProtoHandshake.func1(0xc422460720, 0xc420f98480, 0xc420377830)
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:130 +0x5e
+created by github.com/ethereum/go-ethereum/p2p.(*rlpx).doProtoHandshake
+	/build/ethereum-DfFQgP/ethereum-1.8.12+build14270+trusty/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/rlpx.go:130 +0x79
+
+rax    0xf0013d28
+rbx    0x0
+rcx    0xffffffffffffffff
+rdx    0x10
+rdi    0x1f
+rsi    0xc42150c840
+rbp    0xc420f9f8d0
+rsp    0xc420f9f878
+r8     0x0
+r9     0x0
+r10    0x0
+r11    0x212
+r12    0xffffffffffffffff
+r13    0x43
+r14    0x42
+r15    0x100
+rip    0x4959f4
+rflags 0x10287
+cs     0x33
+fs     0x0
+gs     0x0
+INFO [07-25|10:43:13.194] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [07-25|10:43:13.202] Starting peer-to-peer node               instance=Geth/v1.8.12-stable-37685930/linux-amd64/go1.10
+INFO [07-25|10:43:13.202] Allocated cache and file handles         database=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/chaindata cache=768 handles=512
+INFO [07-25|10:43:13.219] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [07-25|10:43:13.219] Disk storage enabled for ethash caches   dir=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/ethash count=3
+INFO [07-25|10:43:13.219] Disk storage enabled for ethash DAGs     dir=/users/nperry/.ethash                                          count=2
+INFO [07-25|10:43:13.219] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [07-25|10:43:13.221] Loaded most recent local header          number=20 hash=4f88c8…c1630f td=198670908
+INFO [07-25|10:43:13.221] Loaded most recent local full block      number=20 hash=4f88c8…c1630f td=198670908
+INFO [07-25|10:43:13.221] Loaded most recent local fast block      number=20 hash=4f88c8…c1630f td=198670908
+INFO [07-25|10:43:13.222] Loaded local transaction journal         transactions=0 dropped=0
+INFO [07-25|10:43:13.222] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [07-25|10:43:13.222] Blockchain not empty, fast sync disabled 
+INFO [07-25|10:43:13.224] Starting P2P networking 
+INFO [07-25|10:43:15.335] UDP listener up                          self=enode://fa9f02335f07cb5f6d0b3aab6aed135b62f596bb73afd9752f9e083cd791dc187578217cc49f06da980522d62e8ef29ad9e0fa19411ade9e445d77cd9563418b@[::]:30303
+INFO [07-25|10:43:15.336] RLPx listener up                         self=enode://fa9f02335f07cb5f6d0b3aab6aed135b62f596bb73afd9752f9e083cd791dc187578217cc49f06da980522d62e8ef29ad9e0fa19411ade9e445d77cd9563418b@[::]:30303
+INFO [07-25|10:43:15.340] IPC endpoint opened                      url=/users/nperry/alice/example/my-eth-chain/myDataDir/geth.ipc
+INFO [07-25|10:43:15.423] Etherbase automatically configured       address=0xbD8Ff4023383F4Cb6a470AB0A19CA05ecAf8A4a8
+INFO [07-25|10:43:15.431] Updated mining threads                   threads=0
+INFO [07-25|10:43:15.431] Transaction pool price threshold updated price=18000000000
+INFO [07-25|10:43:15.431] Starting mining operation 
+INFO [07-25|10:43:15.432] IPC endpoint closed                      endpoint=/users/nperry/alice/example/my-eth-chain/myDataDir/geth.ipc
+INFO [07-25|10:43:15.432] Commit new mining work                   number=21 txs=0 uncles=0 elapsed=402.573µs
+INFO [07-25|10:43:15.432] Writing cached state to disk             block=20 hash=4f88c8…c1630f root=da6763…b195b3
+INFO [07-25|10:43:15.432] Persisted trie from memory database      nodes=0 size=0.00B time=7.844µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [07-25|10:43:15.432] Writing cached state to disk             block=19 hash=8933f1…f1bc5a root=822efa…d53c13
+INFO [07-25|10:43:15.432] Persisted trie from memory database      nodes=0 size=0.00B time=2.387µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [07-25|10:43:15.432] Blockchain manager stopped 
+INFO [07-25|10:43:15.432] Stopping Ethereum protocol 
+INFO [07-25|10:43:15.432] Ethereum protocol stopped 
+INFO [07-25|10:43:15.432] Transaction pool stopped 
+INFO [07-25|10:43:15.433] Database closed                          database=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/chaindata
+INFO [07-25|10:45:30.966] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [07-25|10:45:30.972] Starting peer-to-peer node               instance=Geth/v1.8.12-stable-37685930/linux-amd64/go1.10
+INFO [07-25|10:45:30.972] Allocated cache and file handles         database=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/chaindata cache=768 handles=512
+INFO [07-25|10:45:30.994] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [07-25|10:45:30.994] Disk storage enabled for ethash caches   dir=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/ethash count=3
+INFO [07-25|10:45:30.994] Disk storage enabled for ethash DAGs     dir=/users/nperry/.ethash                                          count=2
+INFO [07-25|10:45:30.994] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [07-25|10:45:30.996] Loaded most recent local header          number=20 hash=4f88c8…c1630f td=198670908
+INFO [07-25|10:45:30.996] Loaded most recent local full block      number=20 hash=4f88c8…c1630f td=198670908
+INFO [07-25|10:45:30.996] Loaded most recent local fast block      number=20 hash=4f88c8…c1630f td=198670908
+INFO [07-25|10:45:30.997] Loaded local transaction journal         transactions=0 dropped=0
+INFO [07-25|10:45:30.997] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [07-25|10:45:30.997] Blockchain not empty, fast sync disabled 
+INFO [07-25|10:45:30.998] Starting P2P networking 
+INFO [07-25|10:45:33.112] UDP listener up                          self=enode://fa9f02335f07cb5f6d0b3aab6aed135b62f596bb73afd9752f9e083cd791dc187578217cc49f06da980522d62e8ef29ad9e0fa19411ade9e445d77cd9563418b@[::]:30303
+INFO [07-25|10:45:33.112] RLPx listener up                         self=enode://fa9f02335f07cb5f6d0b3aab6aed135b62f596bb73afd9752f9e083cd791dc187578217cc49f06da980522d62e8ef29ad9e0fa19411ade9e445d77cd9563418b@[::]:30303
+INFO [07-25|10:45:33.117] IPC endpoint opened                      url=/users/nperry/alice/example/my-eth-chain/myDataDir/geth.ipc
+INFO [07-25|10:45:33.217] Etherbase automatically configured       address=0xbD8Ff4023383F4Cb6a470AB0A19CA05ecAf8A4a8
+INFO [07-25|10:45:33.227] IPC endpoint closed                      endpoint=/users/nperry/alice/example/my-eth-chain/myDataDir/geth.ipc
+INFO [07-25|10:45:33.227] Writing cached state to disk             block=20 hash=4f88c8…c1630f root=da6763…b195b3
+INFO [07-25|10:45:33.227] Persisted trie from memory database      nodes=0 size=0.00B time=4.465µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [07-25|10:45:33.227] Writing cached state to disk             block=19 hash=8933f1…f1bc5a root=822efa…d53c13
+INFO [07-25|10:45:33.227] Persisted trie from memory database      nodes=0 size=0.00B time=699ns   gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [07-25|10:45:33.227] Blockchain manager stopped 
+INFO [07-25|10:45:33.227] Stopping Ethereum protocol 
+INFO [07-25|10:45:33.227] Ethereum protocol stopped 
+INFO [07-25|10:45:33.227] Transaction pool stopped 
+INFO [07-25|10:45:33.228] Database closed                          database=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/chaindata
+INFO [07-25|10:45:43.816] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [07-25|10:45:43.823] Starting peer-to-peer node               instance=Geth/v1.8.12-stable-37685930/linux-amd64/go1.10
+INFO [07-25|10:45:43.823] Allocated cache and file handles         database=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/chaindata cache=768 handles=512
+INFO [07-25|10:45:43.841] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [07-25|10:45:43.841] Disk storage enabled for ethash caches   dir=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/ethash count=3
+INFO [07-25|10:45:43.841] Disk storage enabled for ethash DAGs     dir=/users/nperry/.ethash                                          count=2
+INFO [07-25|10:45:43.841] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [07-25|10:45:43.845] Loaded most recent local header          number=20 hash=4f88c8…c1630f td=198670908
+INFO [07-25|10:45:43.845] Loaded most recent local full block      number=20 hash=4f88c8…c1630f td=198670908
+INFO [07-25|10:45:43.845] Loaded most recent local fast block      number=20 hash=4f88c8…c1630f td=198670908
+INFO [07-25|10:45:43.845] Loaded local transaction journal         transactions=0 dropped=0
+INFO [07-25|10:45:43.845] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [07-25|10:45:43.845] Blockchain not empty, fast sync disabled 
+INFO [07-25|10:45:43.847] Starting P2P networking 
+INFO [07-25|10:45:45.961] UDP listener up                          self=enode://fa9f02335f07cb5f6d0b3aab6aed135b62f596bb73afd9752f9e083cd791dc187578217cc49f06da980522d62e8ef29ad9e0fa19411ade9e445d77cd9563418b@[::]:30303
+INFO [07-25|10:45:45.961] RLPx listener up                         self=enode://fa9f02335f07cb5f6d0b3aab6aed135b62f596bb73afd9752f9e083cd791dc187578217cc49f06da980522d62e8ef29ad9e0fa19411ade9e445d77cd9563418b@[::]:30303
+INFO [07-25|10:45:45.965] IPC endpoint opened                      url=/users/nperry/alice/example/my-eth-chain/myDataDir/geth.ipc
+INFO [07-25|10:45:46.059] Etherbase automatically configured       address=0xbD8Ff4023383F4Cb6a470AB0A19CA05ecAf8A4a8
+INFO [07-25|10:45:46.078] Updated mining threads                   threads=0
+INFO [07-25|10:45:46.078] Transaction pool price threshold updated price=18000000000
+INFO [07-25|10:45:46.078] Starting mining operation 
+INFO [07-25|10:45:46.079] Commit new mining work                   number=21 txs=0 uncles=0 elapsed=169.092µs
+INFO [07-25|10:45:46.081] IPC endpoint closed                      endpoint=/users/nperry/alice/example/my-eth-chain/myDataDir/geth.ipc
+INFO [07-25|10:45:46.081] Writing cached state to disk             block=20 hash=4f88c8…c1630f root=da6763…b195b3
+INFO [07-25|10:45:46.081] Persisted trie from memory database      nodes=0 size=0.00B time=6.486µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [07-25|10:45:46.081] Writing cached state to disk             block=19 hash=8933f1…f1bc5a root=822efa…d53c13
+INFO [07-25|10:45:46.082] Persisted trie from memory database      nodes=0 size=0.00B time=4.125µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [07-25|10:45:46.082] Blockchain manager stopped 
+INFO [07-25|10:45:46.082] Stopping Ethereum protocol 
+INFO [07-25|10:45:46.082] Ethereum protocol stopped 
+INFO [07-25|10:45:46.082] Transaction pool stopped 
+INFO [07-25|10:45:46.084] Database closed                          database=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/chaindata
+INFO [07-25|10:50:16.085] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [07-25|10:50:16.092] Starting peer-to-peer node               instance=Geth/v1.8.12-stable-37685930/linux-amd64/go1.10
+INFO [07-25|10:50:16.092] Allocated cache and file handles         database=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/chaindata cache=768 handles=512
+INFO [07-25|10:50:16.113] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [07-25|10:50:16.114] Disk storage enabled for ethash caches   dir=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/ethash count=3
+INFO [07-25|10:50:16.114] Disk storage enabled for ethash DAGs     dir=/users/nperry/.ethash                                          count=2
+INFO [07-25|10:50:16.114] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [07-25|10:50:16.119] Loaded most recent local header          number=20 hash=4f88c8…c1630f td=198670908
+INFO [07-25|10:50:16.119] Loaded most recent local full block      number=20 hash=4f88c8…c1630f td=198670908
+INFO [07-25|10:50:16.119] Loaded most recent local fast block      number=20 hash=4f88c8…c1630f td=198670908
+INFO [07-25|10:50:16.120] Loaded local transaction journal         transactions=0 dropped=0
+INFO [07-25|10:50:16.121] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [07-25|10:50:16.121] Blockchain not empty, fast sync disabled 
+INFO [07-25|10:50:16.123] Starting P2P networking 
+INFO [07-25|10:50:18.235] UDP listener up                          self=enode://fa9f02335f07cb5f6d0b3aab6aed135b62f596bb73afd9752f9e083cd791dc187578217cc49f06da980522d62e8ef29ad9e0fa19411ade9e445d77cd9563418b@[::]:30303
+INFO [07-25|10:50:18.235] RLPx listener up                         self=enode://fa9f02335f07cb5f6d0b3aab6aed135b62f596bb73afd9752f9e083cd791dc187578217cc49f06da980522d62e8ef29ad9e0fa19411ade9e445d77cd9563418b@[::]:30303
+INFO [07-25|10:50:18.238] IPC endpoint opened                      url=/users/nperry/alice/example/my-eth-chain/myDataDir/geth.ipc
+INFO [07-25|10:50:18.322] Etherbase automatically configured       address=0xbD8Ff4023383F4Cb6a470AB0A19CA05ecAf8A4a8
+INFO [07-25|10:50:18.334] IPC endpoint closed                      endpoint=/users/nperry/alice/example/my-eth-chain/myDataDir/geth.ipc
+INFO [07-25|10:50:18.334] Writing cached state to disk             block=20 hash=4f88c8…c1630f root=da6763…b195b3
+INFO [07-25|10:50:18.334] Persisted trie from memory database      nodes=0 size=0.00B time=4.307µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [07-25|10:50:18.334] Writing cached state to disk             block=19 hash=8933f1…f1bc5a root=822efa…d53c13
+INFO [07-25|10:50:18.334] Persisted trie from memory database      nodes=0 size=0.00B time=746ns   gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [07-25|10:50:18.334] Blockchain manager stopped 
+INFO [07-25|10:50:18.334] Stopping Ethereum protocol 
+INFO [07-25|10:50:18.334] Ethereum protocol stopped 
+INFO [07-25|10:50:18.334] Transaction pool stopped 
+INFO [07-25|10:50:18.335] Database closed                          database=/users/nperry/alice/example/my-eth-chain/myDataDir/geth/chaindata
